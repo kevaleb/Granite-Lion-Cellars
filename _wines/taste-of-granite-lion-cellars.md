@@ -1,17 +1,22 @@
 ---
 layout: wine
 title: Taste Of Granite Lion Cellars
-permalink: wine//
-winename:
-varietal:
+permalink: wine/taste-of-granite-lion-cellars/
+winename: Taste Of Granite Lion Cellars
+varietal: collection
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: collections
+image_path: /images/wine/collections/taste-of/001.jpg
 years:
   - year: 2011
-    price: 28
-  - year: 2012
-    price: 28
-  - year: 2013
-    price: 28
+    price: 89
 ---
+
+
+This collection comes in 375 ML bottles
+<br>1 - 2011 South Coast Cabernet Sauvignon Reserve
+<br>1 - 2011 South Coast Stoney Oaks
+<br>1 - 2011 South Coast Syrah
+<br>1 - 2011 South Coast Merlot
+<br>1 - 2011 South Coast Pinot Gris
+<br>1 - 2011 South Coast Rose'
