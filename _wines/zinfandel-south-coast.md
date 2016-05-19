@@ -7,10 +7,12 @@ varietal: zinfandel
 ava: lodi
 image_path: /images/wine/red/cab-reserve.jpg
 years:
+  - year: 2011
+    price: 28
   - year: 2012
-    price: 4.95
+    price: 28
   - year: 2013
-    price: 24.95
+    price: 28
 ---
 
 
