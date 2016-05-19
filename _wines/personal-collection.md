@@ -1,7 +1,7 @@
 ---
 layout: wine
 title: personal collection
-permalink: wine/personal collection/
+permalink: wine/personal-collection/
 winename: personal collection
 varietal: collection
 ava: south-coast
