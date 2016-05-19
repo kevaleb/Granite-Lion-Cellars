@@ -1,8 +1,8 @@
 ---
 layout: wine
-title: Cabernet Sauvignon Reserve
-permalink: wine/cabernet-sauvignon-reserve-2/
-winename: cabernet sauvignon reserve
+title: South Coast Cabernet Sauvignon Reserve
+permalink: wine/cabernet-sauvignon-reserve/
+winename: sout coast cabernet sauvignon reserve
 varietal: cabernet sauvignon
 ava: south-coast
 color: red
