@@ -1,17 +1,21 @@
 ---
 layout: wine
 title: 'Flirty, Not Sweet Afternoon Collection'
-permalink: wine//
-winename:
-varietal:
+permalink: wine/afternoon-collection/
+winename: 'Flirty, Not Sweet Afternoon Collection'
+varietal: collection
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: collections
+image_path: /images/wine/collections/afternoon/001.jpg
 years:
   - year: 2011
-    price: 28
-  - year: 2012
-    price: 28
-  - year: 2013
-    price: 28
+    price: 65
 ---
+
+
+The Granite Lion Cellars collection of white wines is an irresistible invitation to relax and refresh. Distinctive and unique, it is a companion for a celebration of friends or a time for quiet reflection and pleasure.&nbsp;
+<br>
+<br>This collection comes in 750 ML bottles
+<br>1 - 2013 South Coast Pinot Gris
+<br>1 - 2013 South Coast Rose'
+<br>1 - 2013 South Coast Melody Lane
