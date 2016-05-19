@@ -5,6 +5,7 @@ permalink: wine/cabernet-sauvignon-reserve-2/
 winename: cabernet sauvignon reserve
 varietal: cabernet sauvignon
 ava: south coast
+color: red
 image_path: /images/wine/red/cab-reserve.jpg
 years:
 - year: 2012
