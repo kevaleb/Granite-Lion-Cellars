@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: south coast chardonnay
-permalink: wine//
-winename:
-varietal:
+permalink: wine/south coast chardonnay/
+winename: south coast chardonnay
+varietal: chardonnay
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/chardonnay.jpg
 years:
   - year: 2011
-    price: 28
+    price: 36
   - year: 2012
-    price: 28
+    price: 36
   - year: 2013
-    price: 28
+    price: 36
 ---
+
+
