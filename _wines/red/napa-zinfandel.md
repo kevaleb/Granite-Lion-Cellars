@@ -2,7 +2,7 @@
 layout: wine
 title: Napa Zinfandel
 permalink: wine/napa-zinfandel/
-winename: napa zinfandel
+winename: zinfandel
 varietal: zinfandel
 ava: napa
 color: red

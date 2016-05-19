@@ -3,9 +3,6 @@ layout: wine
 title: personal collection
 permalink: wine/personal-collection/
 winename: personal collection
-varietal: collection
-ava: south-coast
-color: collections
 image_path: /images/wine/collections/personal-collection.jpg
 years:
   - year: 2011

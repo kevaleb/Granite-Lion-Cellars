@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: Lodi Petit Verdot
-permalink: wine/lodi petit verdot/
-winename: lodi petit verdot
+permalink: wine/lodi-petit-verdot/
+winename: petit verdot
 varietal: petit verdot
 ava: lodi
 color: red

@@ -3,9 +3,6 @@ layout: wine
 title: 'Flirty, Not Sweet Afternoon Collection'
 permalink: wine/afternoon-collection/
 winename: 'Flirty, Not Sweet Afternoon Collection'
-varietal: collection
-ava: south-coast
-color: collections
 image_path: /images/wine/collections/afternoon/001.jpg
 years:
   - year: 2011

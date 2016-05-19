@@ -2,7 +2,7 @@
 layout: wine
 title: Lodi Zinfandel
 permalink: wine/lodi-zinfandel/
-winename: lodi zinfandel
+winename: zinfandel
 varietal: zinfandel
 ava: lodi
 color: red

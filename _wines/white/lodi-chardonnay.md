@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: lodi chardonnay
-permalink: wine/lodi chardonnay/
-winename: lodi chardonnay
+permalink: wine/lodi-chardonnay/
+winename: chardonnay
 varietal: chardonnay
 ava: lodi
 color: white

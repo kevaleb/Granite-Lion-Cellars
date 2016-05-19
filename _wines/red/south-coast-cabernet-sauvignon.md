@@ -2,7 +2,7 @@
 layout: wine
 title: South Coast Cabernet Sauvignon
 permalink: wine/cabernet-sauvignon/
-winename: south coast cabernet sauvignon
+winename: cabernet sauvignon
 varietal: cabernet sauvignon
 ava: south-coast
 color: red

@@ -2,7 +2,7 @@
 layout: wine
 title: Lodi Tannat
 permalink: wine/lodi-tannat/
-winename: lodi tannat
+winename: tannat
 varietal: tannat
 ava: lodi
 color: red

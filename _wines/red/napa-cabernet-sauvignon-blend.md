@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: Napa cabernet sauvignon blend
-permalink: wine/napa cabernet sauvignon blend/
-winename: napa cabernet sauvignon blend
+permalink: wine/napa-cabernet-sauvignon-blend/
+winename: cabernet sauvignon blend
 varietal: cabernet sauvignon
 ava: napa
 color: red

@@ -2,7 +2,7 @@
 layout: wine
 title: South Coast Cabernet Sauvignon Reserve
 permalink: wine/cabernet-sauvignon-reserve/
-winename: sout coast cabernet sauvignon reserve
+winename: cabernet sauvignon reserve
 varietal: cabernet sauvignon
 ava: south-coast
 color: red

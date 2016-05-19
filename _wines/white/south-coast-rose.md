@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: south coast rose
-permalink: wine/south coast rose/
-winename: south coast rose
+permalink: wine/rose/
+winename: rose
 varietal: rose
 ava: south-coast
 color: white

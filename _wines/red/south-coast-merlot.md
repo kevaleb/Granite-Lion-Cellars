@@ -2,7 +2,7 @@
 layout: wine
 title: South Coast Merlot
 permalink: wine/merlot/
-winename: south coast merlot
+winename: merlot
 varietal: merlot
 ava: south-coast
 color: red

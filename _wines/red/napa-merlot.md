@@ -2,7 +2,7 @@
 layout: wine
 title: Napa Valley Merlot
 permalink: wine/napa-merlot/
-winename: Napa Valley Merlot
+winename: Merlot
 varietal: merlot
 ava: napa
 color: red

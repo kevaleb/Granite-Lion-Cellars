@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: south coast sauvignon blanc
-permalink: wine/south coast sauvignon blanc/
-winename: south coast sauvignon blanc
+permalink: wine/sauvignon-blanc/
+winename: sauvignon blanc
 varietal: sauvignon blanc
 ava: south-coast
 color: white

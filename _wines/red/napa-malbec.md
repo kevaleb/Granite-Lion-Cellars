@@ -2,7 +2,7 @@
 layout: wine
 title: Napa Valley Malbec
 permalink: wine/napa-malbec/
-winename: Napa Malbec
+winename: malbec
 varietal: malbec
 ava: napa
 color: red

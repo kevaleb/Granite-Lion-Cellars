@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: south coast pinot gris
-permalink: wine/south coast pinot gris/
-winename: south coast pinot gris
+permalink: wine/pinot-gris/
+winename: pinot gris
 varietal: pinot gris
 ava: south-coast
 color: white

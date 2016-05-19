@@ -2,7 +2,7 @@
 layout: wine
 title: South Coast Sangiovese
 permalink: wine/sangiovese/
-winename: south coast sangiovese
+winename: sangiovese
 varietal: sangiovese
 ava: south-coast
 color: red

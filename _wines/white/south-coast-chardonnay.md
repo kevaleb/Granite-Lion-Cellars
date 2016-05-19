@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: south coast chardonnay
-permalink: wine/south coast chardonnay/
-winename: south coast chardonnay
+permalink: wine/chardonnay/
+winename: chardonnay
 varietal: chardonnay
 ava: south-coast
 color: white

@@ -1,8 +1,8 @@
 ---
 layout: wine
 title: south coast melody lane
-permalink: wine/south coast melody lane/
-winename: south coast melody lane
+permalink: wine/melody-lane/
+winename: melody lane
 varietal: white blend
 ava: south-coast
 color: white

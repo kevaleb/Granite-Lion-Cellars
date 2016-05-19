@@ -2,7 +2,7 @@
 layout: wine
 title: South Coast Cabernet Franc
 permalink: wine/cabernet-franc/
-winename: south coast cabernet franc
+winename: cabernet franc
 varietal: cabernet franc
 ava: south-coast
 color: red
