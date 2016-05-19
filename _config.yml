@@ -7,3 +7,5 @@ collections:
     output: true
   avas:
     output: true
+  colors:
+    output: true
