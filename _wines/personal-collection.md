@@ -1,17 +1,25 @@
 ---
 layout: wine
 title: personal collection
-permalink: wine//
-winename:
-varietal:
+permalink: wine/personal collection/
+winename: personal collection
+varietal: collection
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: collections
+image_path: /images/wine/collections/personal-collection.jpg
 years:
   - year: 2011
-    price: 28
-  - year: 2012
-    price: 28
-  - year: 2013
-    price: 28
+    price: 127
 ---
+
+
+This collection comes in 375 ML Bottles
+<br>1 - 2011 South Coast Cabernet Sauvignon Reserve
+<br>1 - 2011 South Coast Zinfandel
+<br>1 - 2011 South Coast Stoney Oaks
+<br>1 - 2011 South Coast Syrah
+<br>1 - 2011 South Coast Petite Syrah
+<br>1 - 2011 South Coast Petite Syrah Reserve
+<br>1 - 2011 South Coast Merlot
+<br>1 - 2012 Lodi Chardonnay
+<br>1 - 2011 Napa Valley Cabernet Sauvignon
