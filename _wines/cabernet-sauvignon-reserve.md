@@ -4,7 +4,6 @@ title: Cabernet Sauvignon Reserve
 permalink: wine/cabernet-sauvignon-reserve-2/
 winename: cabernet sauvignon reserve
 varietal: cabernet sauvignon
-wineryname: granite lion cellars
 ava: south coast
 image_path: /images/wine/red/cab-reserve.jpg
 years:
