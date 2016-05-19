@@ -5,6 +5,7 @@ permalink: wine/zinfandel/
 winename: zinfandel
 varietal: zinfandel
 ava: south-coast
+color: red
 image_path: /images/wine/red/zin.jpg
 years:
   - year: 2011
