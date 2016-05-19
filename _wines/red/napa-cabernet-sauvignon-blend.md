@@ -6,6 +6,7 @@ winename: cabernet sauvignon blend
 varietal: cabernet sauvignon
 ava: napa
 color: red
+product-type: single
 image_path: /images/wine/red/napa-cab-blend.jpg
 years:
   - year: 2011

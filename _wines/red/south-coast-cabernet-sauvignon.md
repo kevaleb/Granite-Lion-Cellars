@@ -6,6 +6,7 @@ winename: cabernet sauvignon
 varietal: cabernet sauvignon
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/cab.jpg
 years:
   - year: 2011

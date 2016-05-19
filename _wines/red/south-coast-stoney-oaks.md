@@ -6,6 +6,7 @@ winename: stoney oaks
 varietal: red blend
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/stoney-oaks.jpg
 years:
   - year: 2011

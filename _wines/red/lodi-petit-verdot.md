@@ -6,6 +6,7 @@ winename: petit verdot
 varietal: petit verdot
 ava: lodi
 color: red
+product-type: single
 image_path: /images/wine/red/lodi-petit-verdot.jpg
 years:
   - year: 2011

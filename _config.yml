@@ -9,3 +9,5 @@ collections:
     output: true
   colors:
     output: true
+  product-types:
+    output: true

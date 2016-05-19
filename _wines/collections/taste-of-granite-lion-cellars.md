@@ -2,7 +2,8 @@
 layout: wine
 title: Taste Of Granite Lion Cellars
 permalink: wine/taste-of-granite-lion-cellars/
-winename: Taste Of Granite Lion Cellars
+winename: taste of granite lion cellars
+product-type: collection
 image_path: /images/wine/collections/taste-of/001.jpg
 years:
   - year: 2011

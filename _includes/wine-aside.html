@@ -1,0 +1,18 @@
+<aside>
+	<h3>General</h3>
+	<a href="/wine/">All Wine</a>
+	{% for item in site.product-types %}
+	<a href="{{ item.url }}" {% if page.url contains item.title %}class="selected"{% endif %}>{{ item.title }}</a>
+	{% endfor %}
+	
+	<h3>Regions</h3>
+	{% for item in site.avas %}
+	<a href="{{ item.url }}" {% if page.url contains item.title %}class="selected"{% endif %}>{{ item.title }}</a>
+	{% endfor %}
+	
+	<h3>Color</h3>
+	{% for item in site.colors %}
+	<a href="{{ item.url }}" {% if page.url contains item.title %}class="selected"{% endif %}>{{ item.title }}</a>
+	{% endfor %}
+	
+</aside>

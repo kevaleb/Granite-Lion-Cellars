@@ -6,6 +6,7 @@ winename: malbec
 varietal: malbec
 ava: napa
 color: red
+product-type: single
 image_path: /images/wine/red/napa-malbec.jpg
 years:
   - year: 2011

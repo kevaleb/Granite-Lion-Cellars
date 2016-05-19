@@ -6,6 +6,7 @@ winename: tannat
 varietal: tannat
 ava: lodi
 color: red
+product-type: single
 image_path: /images/wine/red/lodi-tannat.jpg
 years:
   - year: 2011

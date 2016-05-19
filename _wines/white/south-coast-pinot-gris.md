@@ -6,6 +6,7 @@ winename: pinot gris
 varietal: pinot gris
 ava: south-coast
 color: white
+product-type: single
 image_path: /images/wine/white/pinot-gris.jpg
 years:
   - year: 2011

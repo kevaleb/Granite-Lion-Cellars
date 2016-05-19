@@ -6,6 +6,7 @@ winename: merlot
 varietal: merlot
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/merlot.jpg
 years:
   - year: 2011

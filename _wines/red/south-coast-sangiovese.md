@@ -6,6 +6,7 @@ winename: sangiovese
 varietal: sangiovese
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/sangiovese.jpg
 years:
   - year: 2011

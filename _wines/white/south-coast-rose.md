@@ -6,6 +6,7 @@ winename: rose
 varietal: rose
 ava: south-coast
 color: white
+product-type: single
 image_path: /images/wine/white/rose.jpg
 years:
   - year: 2011

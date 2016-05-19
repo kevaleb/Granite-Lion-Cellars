@@ -6,6 +6,7 @@ winename: cabernet sauvignon reserve
 varietal: cabernet sauvignon
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/cab-reserve.jpg
 years:
   - year: 2011

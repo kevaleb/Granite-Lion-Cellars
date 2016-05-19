@@ -1,0 +1,11 @@
+<a href="{{ item.url }}">
+	<img src="{{ item.image_path }}" alt="" />
+	<hgroup>
+		<h2 title="{{ item.ava }}">{{ item.winename }}</h2>
+		{% for year in item.years %}
+		{% if forloop.first %}
+		<p>{{ year.price }}</p>
+		{% endif %}
+		{% endfor %}
+	</hgroup>
+</a>

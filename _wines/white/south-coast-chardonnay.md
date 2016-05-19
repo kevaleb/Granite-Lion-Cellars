@@ -6,6 +6,7 @@ winename: chardonnay
 varietal: chardonnay
 ava: south-coast
 color: white
+product-type: single
 image_path: /images/wine/white/chardonnay.jpg
 years:
   - year: 2011

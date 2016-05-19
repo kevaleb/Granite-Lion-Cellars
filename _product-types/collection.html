@@ -1,0 +1,9 @@
+---
+layout: wine-list
+title: collections
+permalink: /wine/collections/
+---
+{% assign wines = site.wines | where: "product-type", "collection" | sort: 'winename' %}
+{% for item in wines %}
+	{% include wine-list-items.html %}
+{% endfor %}

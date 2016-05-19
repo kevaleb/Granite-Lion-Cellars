@@ -1,8 +1,9 @@
 ---
 layout: wine
-title: 'Flirty, Not Sweet Afternoon Collection'
+title: Flirty, Not Sweet Afternoon Collection
 permalink: wine/afternoon-collection/
-winename: 'Flirty, Not Sweet Afternoon Collection'
+winename: flirty, not sweet afternoon collection
+product-type: collection
 image_path: /images/wine/collections/afternoon/001.jpg
 years:
   - year: 2011

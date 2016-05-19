@@ -6,6 +6,7 @@ winename: zinfandel
 varietal: zinfandel
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/zin.jpg
 years:
   - year: 2011

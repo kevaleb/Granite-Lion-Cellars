@@ -1370,7 +1370,7 @@ display: none;
 	position: relative;
 	max-width: 1080px;
 	margin: 0 auto;
-	padding: 0 0 0 250px;
+	padding: 0 0 0 175px;
 }
 
 
@@ -1392,11 +1392,15 @@ display: none;
 	overflow: hidden;
 	margin: 0px 0 24px 0;
 }
+.wine-grid > header > h1,
 .wine-grid > header > h2 {
+	float: left;
 	display: inline-block;
 	margin: 0;
 	padding: 12px;
-	font: 500 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 200 24px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #b6ac67;
 }
 
 
@@ -1406,7 +1410,7 @@ display: none;
 .wine-grid > header > .toggle {
 	float: right;
 	overflow: hidden;
-	/*padding: 12px 0;*/
+	padding: 12px 0;
 }
 .wine-grid > header > .toggle > span {
 	/*float: right;*/
@@ -1637,8 +1641,9 @@ display: none;
 .products > aside {
 	position: absolute;
 	left: 0;
-	top: 96px;
+	top: 0px;
 	padding: 24px 24px 0 0;
+	width: 175px;
 }
 .products > aside > h3 {
 	margin: 0;
@@ -1650,11 +1655,19 @@ display: none;
 }
 .products > aside > a {
 	display: block;
-	padding: 0 0 0 6px;
-	font: 200 15px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 3px 12px;
+	border: 1px solid rgba(255,255,255,0);
+	font: 200 18px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 	color: #666;
 	text-decoration: none;
 	cursor: pointer;
+}
+.products > aside > a.selected {
+	border: 1px solid #b6ac67;
+	border-radius: 24px;
+	color: #b6ac67;
 }
 .products > aside > a:hover {
 	color: #000;

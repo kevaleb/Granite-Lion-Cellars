@@ -1,0 +1,10 @@
+---
+layout: wine-list
+title: south-coast
+permalink: /wine/south-coast/
+---
+
+{% assign wines = site.wines | where: "ava", "south-coast" | sort: 'winename' %}
+{% for item in wines %}
+	{% include wine-list-items.html %}
+{% endfor %}

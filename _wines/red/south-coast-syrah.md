@@ -6,6 +6,7 @@ winename: syrah
 varietal: syarh
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/syrah.jpg
 years:
   - year: 2011

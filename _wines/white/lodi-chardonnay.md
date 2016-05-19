@@ -6,6 +6,7 @@ winename: chardonnay
 varietal: chardonnay
 ava: lodi
 color: white
+product-type: single
 image_path: /images/wine/white/lodi-chardonnay.jpg
 years:
   - year: 2011

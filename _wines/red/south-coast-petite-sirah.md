@@ -6,6 +6,7 @@ winename: petite sirah
 varietal: petite sirah
 ava: south-coast
 color: red
+product-type: single
 image_path: /images/wine/red/petite-sirah.jpg
 years:
   - year: 2011
