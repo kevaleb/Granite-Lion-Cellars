@@ -1,12 +1,12 @@
 ---
 layout: wine
-title: lodi tannat
-permalink: wine//
-winename:
-varietal:
-ava: south-coast
-color:
-image_path: /images/wine//.jpg
+title: Lodi Tannat
+permalink: wine/lodi-tannat/
+winename: lodi tannat
+varietal: tannat
+ava: lodi
+color: red
+image_path: /images/wine/red/lodi-tannat.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
