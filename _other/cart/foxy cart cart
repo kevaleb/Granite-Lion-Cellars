@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-2461133-18', 'granitelioncellars.com');
+	  ga('send', 'pageview');
+	
+	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Granite Lion Cellars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="https://granitelioncellars.foxycart.com/cache.php?url=http://www.granitelioncellars.com/images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+    
+<style type="text/css" >
+/* <![CDATA[ */
+/* Pulled from _http://www.granitelioncellars.com/css/header.css */
+/* @override http://0.0.0.0:4000/css/header.css */
+
+.main-header {
+	-webkit-box-sizing: border-box;
+	position: fixed;
+	z-index: 100000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 96px;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.15);
+	overflow: hidden;
+}
+.main-header > div {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+.main-header > div > .logo {
+	/*margin: 12px 0;*/
+}
+.main-header > div > .logo > img {
+	
+}
+
+
+/* @group MAIN NAVIGATIOMN */
+.main-navigation {
+	float: right;
+	clear: none;
+	height: 72px;
+}
+.main-navigation:after {
+	content: '\00a0';
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	margin: 0 -.25em 0 0;
+	vertical-align: middle;
+}
+.main-navigation > a {
+	display: inline-block;
+	position: relative;
+	margin: 0 -.25em 0 18px;
+	font: 16px/24px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	color: #111;
+	opacity: .85;
+}
+.main-navigation > a.selected {
+	color: #b6ac67!important;
+	opacity: 1;
+}
+.main-navigation > a.selected::after {
+	content: '\00a0';
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 3px;
+	background: #b6ac67;
+}
+
+
+.main-navigation > .cart {
+	position: relative;
+	top: -2px;
+	width: 25px;
+	height: 25px;
+	background: url('https://granitelioncellars.foxycart.com/cache.php?url=http://www.granitelioncellars.com/images/icons.png') no-repeat -75px 0px;
+}
+
+/* @end */
+
+
+
+
+
+
+
+@media all and (max-width: 1080px) {
+	
+	.main-navigation > a:first-of-type {
+		display: none!important;
+	}
+	
+}
+
+
+
+@media all and (max-width: 800px) {
+		
+	.main-header {
+		position: relative;
+		height: auto;
+	}	
+	.main-header > div {
+		text-align: center;
+	}
+	.main-header > div .site-title {
+		float: none;
+		display: inline-block;
+		max-width: 90%;
+		/*margin: 0 auto;*/
+		/*margin: 10px 0 0 10px;*/
+	}
+	.main-navigation > ul > li {
+		margin: 0 0 0 12px;
+	}
+	
+	.main-navigation {
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+	.main-navigation > a {
+		font-size: 15px;
+		margin-left: 10px;
+	}
+}
+
+
+
+
+
+@media all and (max-width: 500px) {
+	
+}
+	
+/* ]]> */
+</style>
+    
+<style type="text/css" >
+/* <![CDATA[ */
+/* Pulled from _http://www.granitelioncellars.com/css/styles.css */
+/* =====================================================
+FOXYCART.COM
+
+@theme		text
+@version	1.1.0
+@for		cart, checkout
+
+@usage		Link to this CSS file from your cart and checkout templates,
+			or use it as a starting point to create your own custom CSS.
+
+			This stylesheet is designed to be used at about 760px wide.
+			While it may work at other widths, it may require tweaking.
+
+@support	forum.foxycart.com
+
+@notes		This stylesheet is designed to be a good starting point for
+			you to modify and customize. You may want to actually link
+			to this stylesheet, then create another stylesheet of your
+			own to override these styles. That will make it easier to
+			upgrade to future store versions.
+
+			IE6 hacks, when necessary, are with the underscore hack.
+			Supported browsers are IE6+, FF1.5+, Opera 9+, Safari 2+.
+			Styles are not listed alphabetically, but rather in order of
+			size, positioning, backgrounds/colors, text, and other.
+
+@IMPORTANT	Before you attempt to use this file to customize this CSS file, please review:
+			http://wiki.foxycart.com/screencasts
+			Especially: http://wiki.foxycart.com/screencasts:customizing_your_checkout
+			We promise it will be worth it, even if you're a CSS expert.
+
+===================================================== */
+
+/* ZERO THINGS OUT
+===================================================== */
+body {
+	font-family:'Lucida Grande', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.checkout {
+		
+	max-width: 1080px;
+	margin: 100px auto 0 auto;
+	padding: 0 0 50px 0;
+	overflow: hidden;
+}
+.checkout > #fc_checkout_container input {
+/* 	background: #f16; */
+}
+
+#fc_checkout_container li,
+#fc_receipt_container li,
+#fc_checkout_container ol,
+#fc_receipt_container ol {
+	margin:0;
+	padding:0;
+}
+
+
+
+/* CART ^^ cart ^^ STYLES
+===================================================== */
+/* This is the container that the cart gets called inside of: */
+#fc_cart_container,
+#fc_receipt_container {
+	width: 50%;
+	margin:0 auto;
+	padding: 24px 0 0 0;
+	color:#666;
+	font-size:10px;
+	line-height:1.2;
+	/* float: right; */
+}
+#fc_receipt_container {
+	width: 100%;
+	margin: 0;
+/* 	background: #f16; */
+}
+
+
+/* Define some styles for the cart table */
+#fc_cart_table {
+	/* width: 50%; */
+	/* margin: 0 auto; */
+	/* clear:both; */
+	border-collapse:collapse;
+	font-size:11px;
+	/* background: #f16; */ 
+	/* float: right; */
+	width: 100%;
+}
+#fc_cart_table caption {
+	display:none;
+}
+#fc_cart_table td,
+#fc_cart_table th {
+	padding:2px 5px;
+	color:#666;
+	text-align:left;
+	vertical-align:top;
+	font-size:11px;
+}
+/* We'll set some basic widths to keep things appropriate */
+#fc_cart_head_item {
+	width:50%;
+}
+#fc_cart_head_quantity,
+#fc_cart_head_price {
+	width:25%;
+}
+
+#fc_cart_table td {
+	border-bottom: 1px dotted #ccc;
+}
+#fc_cart_table tr:last-of-type td {
+	border-bottom: 1px solid #ccc;
+}
+
+/* The header cells */
+#fc_cart_table thead th {
+	/* background:#666; */
+	color: #333;
+	font-size:14px;
+	font-weight:normal;
+	text-transform:lowercase;
+	letter-spacing:1px;
+	border-bottom: 1px solid #ccc;
+}
+/* The footer cells */
+#fc_cart_table tfoot td {
+	border-bottom: none;
+	/* background:#eee; */
+	font-size:11px;
+}
+#fc_cart_table tfoot td.fc_col1 {
+	text-align:right;
+}
+#fc_cart_foot_total td.fc_col1 {
+	color: #999 !important;
+	font-weight: 200 !important;
+	text-align:right;
+}
+/* The subscription sub-total footer row */
+#fc_cart_foot_subscriptions td, tr.fc_cart_foot_discount td {
+	color:#900;
+}
+#fc_cart_foot_subscriptions td.fc_col1 {
+	font-style:italic;
+}
+#fc_cart_table #fc_cart_foot_total td {
+	/* background:#666; */
+	color: #333;
+	font: 700 16px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	border-bottom: none;
+}
+
+/* Item "remove" links */
+#fc_cart_table .fc_cart_remove_left,
+#fc_cart_table .fc_cart_remove_right {
+	display:none;
+}
+#fc_cart_table .fc_cart_remove_link {
+	color:#999;
+	text-decoration:none;
+
+}
+#fc_cart_table .fc_cart_remove_link:hover {
+	color:#600;
+}
+
+/* Cart items */
+#fc_cart_container tr.fc_cart_item td {
+	vertical-align: middle;
+}
+#fc_cart_container td.fc_cart_item_name {}
+#fc_cart_container td.fc_cart_item_image img {
+	border: 0px;
+	width: 100px;
+}
+#fc_checkout_cart #fc_cart_container td.fc_cart_item_image img {
+	width: 50px;
+}
+#fc_cart_container ul.fc_cart_item_options,
+#fc_cart_container li.fc_cart_item_subscription_details ul {
+	margin:0 0 5px;
+	padding:0 0 0 15px;
+	background:none;
+	list-style:outside;
+	list-style-type:none;
+}
+#fc_cart_container li.fc_cart_item_option {
+	background:none;
+	color:#666;
+	font-size:9px;
+}
+#fc_cart_container li.fc_cart_item_subscription_details ul {
+	border-top:1px solid #ccc;
+}
+#fc_cart_container li.fc_cart_item_subscription_details ul li.fc_cart_item_option {
+}
+#fc_cart_container input.fc_cart_item_quantity {
+	width:2.5em;
+	padding:2px 4px;
+	border:1px solid #ccc;
+	font-size:11px;
+}
+
+#fc_cart_container span.fc_cart_item_price_total,
+#fc_cart_container span.fc_cart_item_price_each {
+	display:block;
+}
+#fc_cart_container span.fc_cart_item_price_each {
+	color:#666;
+	font-size:9px;
+}
+
+/* Coupons */
+tfoot #fc_cart_foot_discount_error td {
+	background:#ffe6e6;
+	color:#600;
+}
+#fc_cart_foot_discount_new a {
+	color:#900;
+}
+
+/* Multiship */
+th.fc_shipto {
+	background:#ddd;
+}
+th.fc_shipto a {
+	color:#900
+}
+
+
+/* BUTTONS AND ACTION LINKS
+===================================================== */
+#fc_cart_controls_top,
+#fc_cart_controls_bottom {
+	padding:20px 0;
+	text-align:right;
+	font-size:12px;
+}
+#fc_cart_controls_top a,
+#fc_cart_controls_bottom a,
+#fc_checkout_container a.fc_link_nav,
+#fc_receipt_links a.fc_link_nav,
+#fc_checkout_container button.fc_button {
+  margin-left:10px;
+	padding:5px 10px;
+	border:2px solid #666;
+	color:#fff;
+	background:#aaa;
+	text-decoration:none;
+}
+#fc_cart_controls_top a:hover,
+#fc_cart_controls_bottom a:hover,
+#fc_checkout_container a.fc_link_nav:hover,
+#fc_receipt_links a.fc_link_nav:hover,
+#fc_checkout_container button.fc_button:hover {
+	border-color:#333;
+	background:#666;
+	cursor:pointer;
+}
+#fc_cart_container #fc_cart_controls_top span.fc_cart_notice,
+#fc_cart_container #fc_cart_controls_bottom span.fc_cart_notice {
+	padding:5px 10px;
+	border:2px solid #ccc;
+	color:#aaa;
+	background:#eee;
+}
+a.fc_cart_update {
+	float:left;
+}
+
+/* Button Containers */
+#fc_continue,
+#fc_complete_order_button_container {
+	padding:1em 0 1em 16em;
+	float:left;
+	clear:both;
+}
+
+/* PayPal */
+#fc_cart_form a.fc_cart_checkout_paypal {
+  padding:0;
+  border:none;
+  background:none;
+  vertical-align:top;
+}
+#fc_cart_form a.fc_cart_checkout_paypal img {
+  border:none;
+}
+#fc_cart_form a.fc_cart_checkout_or {
+    background-color:inherit;
+    border:0 none;
+    color:inherit;
+    cursor:default;
+}
+
+
+/* CHECKOUT
+===================================================== */
+/* Basic override styles */
+#fc_checkout_container{
+	margin:25px 0;
+	font-size:12px;
+}
+#fc_checkout_container ol,
+#fc_receipt_container ol {
+	list-style:none outside;
+}
+#fc_checkout_container fieldset,
+#fc_receipt_container fieldset {
+	border:none;
+}
+#fc_checkout_container legend,
+#fc_receipt_container legend {
+	display:none;
+}
+#fc_checkout_container input.fc_text {
+	border:1px solid #ccc;
+	border-radius: 3px;
+	background:#fff;
+	font: 200 12px/24px arial;
+}
+
+
+
+/* ROWS AND CONTAINERS
+===================================================== */
+#fc_checkout_container ol,
+#fc_receipt_container ol {
+	float:none;
+	clear:both;
+}
+#fc_checkout_container li.fc_row,
+#fc_receipt_container li.fc_row {
+	width:100%;
+	margin:0;
+	padding:0 0 .5em;
+	float:left;
+	clear:both;
+}
+/* Clearfix the li.fc_row elements*/
+li.fc_row:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+li.fc_row {
+	display: inline-block;
+}
+html[xmlns] li.fc_row {
+	display: block;
+}
+* html li.fc_row {
+	height: 1%;
+}
+
+
+div.fc_radio_group_container {
+	width:25em;
+	padding:0 0 1em;
+	float:left;
+}
+#fc_checkout_container li.fc_row_radio,
+#fc_checkout_container li.fc_row_checkbox {
+	width:20em;
+	margin-left:16em;
+}
+
+
+/* INPUTS
+===================================================== */
+input.fc_text {
+	width:20em;
+	padding:.1em .4em;
+	border:1px solid #666;
+	background:#fff;
+}
+#customer_postal_code,
+input.fc_text_short {
+	width:7em;
+}
+
+/* Readonly classes for Shared-Authentication */
+#fc_checkout_container input.fc_text_readonly {
+	border:none;
+	color:#666;
+}
+
+
+
+/* MESSAGES (Errors, Warnings, and Info for Cart and Checkout)
+	(Does not include <label> errors.)
+===================================================== */
+#fc_message_container {
+	margin:15px 0px;
+	color:#333;
+}
+#fc_message_container ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#fc_message_container div.fc_message {
+	margin:5px 0;
+	padding:5px 5px 5px 25px;
+	border-width:1px;
+	border-style:solid;
+	display:block;
+	font-weight:normal;
+}
+#fc_error_container li {
+	list-style:none outside;
+}
+
+#fc_error_container {
+	border-color:#d03d39;
+	color:#900;
+	background:#FFE4E1 url(//cdn.foxycart.com/static/themes/standard/images/icon-warning.png?v=1) no-repeat 6px 4px;
+}
+#fc_warning_container {
+	border-color:#f9bd3b;
+	color:#333;
+	background:#FFFFCC url(//cdn.foxycart.com/static/themes/standard/images/icon-warning.png?v=1) no-repeat 6px 4px;
+}
+#fc_info_container {
+	border-color:#266473;
+	color:#266473;
+	background:#E6F1F4 url(//cdn.foxycart.com/static/themes/standard/images/icon-info.blue.png?v=1) no-repeat 9px 3px;
+}
+
+
+
+
+
+/* LABELS & ERRORS
+===================================================== */
+#fc_checkout_container label.fc_pre,
+#fc_checkout_container span.fc_pre,
+#fc_receipt_container span.fc_pre {
+	width:15em;
+	padding:.2em 1em 0 0;
+	*padding-top:.4em;
+	float:left;
+	line-height:1;
+	text-align:right;
+}
+#fc_checkout_container .fc_row_error label.fc_pre {
+	color:#d03c3a;
+}
+#fc_checkout_container label.fc_error {
+	margin:0 0 15px 0;
+	padding:5px 5px 5px 25px;
+	display:block; clear:both;
+	color:#900;
+	background:url(//cdn.foxycart.com/static/themes/standard/images/icon-warning.png?v=1) no-repeat left center;
+	font-weight:bold;
+}
+#fc_checkout_container label.fc_error a {
+	color:#D03B39;
+}
+#fc_checkout_container #fc_form_checkout_error {
+	width:auto;
+	margin:15px 0;
+	clear:none;
+	background-color:#f7e0df;
+	background-position:5px center;
+}
+/* Checkboxes */
+#fc_use_different_address,
+#fc_copy_billing_address {
+	float:left;
+	clear:both;
+	padding:.5em 0 .5em 16em;
+}
+label.fc_label_checkbox {
+	width:21.5em;
+	padding:.5em;
+	border:1px solid #666;
+	display:block;
+	float:left;
+}
+#li_save_cc label.fc_label_checkbox {
+	margin-left:16em; _margin-left:8em;
+}
+span.fc_input_checkbox_container {
+	padding:0 .5em 0 0;
+	float:left;
+}
+
+/* Radios */
+#fc_checkout_container label.fc_radio {
+	display:block;
+}
+
+/* Select boxes */
+#fc_checkout_container li.fc_row_select select {
+	width:20em;
+	margin-top:2px;
+}
+
+
+/* SPECIFIC SECTIONS
+===================================================== */
+/* LOGIN OR REGISTER */
+#fc_login_register p {
+	padding-left:16em;
+	color:#0971B2;
+}
+
+#fc_use_billing_address {
+	display:none;
+}
+
+
+
+
+
+
+#fc_customer_info_container {
+	overflow: hidden;
+	clear: both;
+}
+h2 {
+	width: 90%;
+	border-bottom: 1px solid #ccc;	
+	font: 24px/24px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #b6ac67;
+	color: #000;
+}
+.fc_fieldset_container {
+/* 	float: left;
+	width: 50%; */
+	
+
+	width: 50%;
+	margin: 0 auto;
+
+
+	clear: both;
+}
+
+#fc_cancel_continue_shopping {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/* SHIPPING */
+/* #fc_customer_billing_container {
+	float: left; clear: left;
+}
+#fc_address_shipping_container {
+	float: right;
+	clear: right;
+}
+#fc_shipping_container {
+	float: left;
+	clear: left;
+} */
+
+
+
+
+
+
+
+#fc_shipping_container input.fc_text {
+	width:7em;
+}
+#fc_shipping_methods {
+	color:#333;
+}
+#fc_shipping_methods_label {
+	min-height:2em;
+}
+#fc_shipping_methods_inner,
+#fc_shipping_result {
+	width:20em;
+	padding-bottom:.5em;
+	float:left;
+}
+div.fc_downloadable_message_container {
+	clear:both;
+}
+
+/* PAYMENT */
+#fc_payment_container {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 24px;
+	/* float: right; */
+	/* clear: right; */
+}
+
+
+#fc_checkout_container #li_cc_saved,
+#fc_checkout_container #li_cc_new {
+	width:20em;
+	margin-left:16em; _margin-left:8em;
+}
+#fc_c_card_saved_number {
+	display:block;
+	text-align:right;
+	color:#666;
+}
+
+.fc_fieldset_container ol li fieldset {
+  margin:.5em 0 1em;
+  clear:both;
+  background:#eee;
+}
+li.fc_row_payment_method label.fc_radio span img {
+  vertical-align:middle;
+}
+
+#fc_payment_method_paypal_container span img {
+  vertical-align:middle;
+  margin-right:10px;
+}
+
+fieldset fieldset .fc_pre {
+  color:#494742;
+}
+
+
+
+/* RECEIPT
+===================================================== */
+#fc_checkout_container span.fc_pre,
+#fc_receipt_container span.fc_pre {
+	padding-top:.1em;
+}
+#fc_checkout_container span.fc_text,
+#fc_receipt_container span.fc_text {
+	float:left;
+	color:#333;
+}
+#fc_receipt_links {
+	margin-bottom:2em;
+}
+
+
+/* NOSCRIPT ERRORS
+===================================================== */
+#fc_error_noscript {
+	margin:10px 0 25px 0;
+	padding:5px 5px 5px 25px;
+	border:1px solid #d03d39;
+	display:block; clear:both;
+	color:#900;
+	background:url(//cdn.foxycart.com/static/themes/standard/images/icon-warning.png?v=1) no-repeat 5px 8px;
+	font-weight:normal;
+}
+#fc_error_noscript p {
+	color:#900;
+}
+#fc_error_noscript a {
+	text-decoration:underline;
+}
+
+/* ]]> */
+</style>
+	
+	<script type="text/javascript" charset="utf-8">
+		//<![CDATA[
+		jQuery(document).ready(function() {
+	 
+			/* BEGIN CUSTOM LOCATION LOGIC */
+	 		
+	 		FC.checkout.requireShippingAddress();
+	 		FC.locations.limitCountriesTo("US", "shipping");
+	 		FC.locations.limitStatesTo("US",["AK","AZ","CA","CO","CT","DC","FL","GA","HI","ID","IL","IN","IA","KS","LA","ME","MD","MI","MN","MO","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OR","SC","TN","TX","VA","WA","WV","WI","WY"], "shipping");
+	 			
+			/* END CUSTOM LOCATION LOGIC */
+	 
+			FC.locations.updateFoxyComplete(true);
+		});
+		//]]>
+	</script>
+	<script type="text/javascript" charset="utf-8">
+		//<![CDATA[
+		// Country/State Helper Functions v1.1
+		// Do not modify the following functions
+	 
+		FC.locations.removeCountries = function(countries, locationArrayNames) {
+			if (typeof countries == "undefined") { return false }
+			if (typeof countries == "string") { countries = [countries]; }
+			locationArrayNames = FC.locations.validateLocationArrayNames(locationArrayNames);
+	 
+			for (l in locationArrayNames) {
+				var locationArray = FC.locations.getLocationArray(locationArrayNames[l]);
+				for (var c in countries) {
+					if (typeof locationArray[countries[c]] == "undefined") { break; }
+					delete locationArray[countries[c]];
+				}
+			}
+	 
+			return true;
+		}
+	 
+		FC.locations.limitCountriesTo = function(countries, locationArrayNames) {
+			if (typeof countries == "undefined") { return false }
+			if (typeof countries == "string") { countries = [countries]; }
+			locationArrayNames = FC.locations.validateLocationArrayNames(locationArrayNames);
+	 
+			for (l in locationArrayNames) {
+				var newLocations = {};
+				var locationArray = FC.locations.getLocationArray(locationArrayNames[l]);
+				for (var c in countries) {
+					if (typeof locationArray[countries[c]] == "undefined") { break; }
+					newLocations[countries[c]] = locationArray[countries[c]];
+				}
+	 
+				// Prevent the countries being set to nothing
+				if (newLocations == {}) { return false; }
+	 
+				if (locationArrayNames[l] == "customer") {
+					FC.locations.config.locations = newLocations;
+				} else {
+					FC.locations.config.shippingLocations = newLocations;
+				}
+			}
+			return true;
+		}
+	 
+		FC.locations.removeStates = function(country, states, locationArrayNames) {
+			if (typeof country == "undefined" || typeof states == "undefined") { return false }
+			if (typeof states == "string") { states = [states]; }
+			locationArrayNames = FC.locations.validateLocationArrayNames(locationArrayNames);
+	 
+			for (l in locationArrayNames) {
+				var locationArray = FC.locations.getLocationArray(locationArrayNames[l]);
+				if (typeof locationArray[country] == "undefined") { return false; }
+				for (var s in states) {
+					if (typeof locationArray[country].r[states[s]] == "undefined") { break; }
+					delete locationArray[country].r[states[s]];
+				}
+			}
+			return true;
+		}
+	 
+		FC.locations.limitStatesTo = function(country, states, locationArrayNames) {
+			if (typeof country == "undefined" || typeof states == "undefined") { return false }
+			if (typeof states == "string") { states = [states]; }
+			locationArrayNames = FC.locations.validateLocationArrayNames(locationArrayNames);
+	 
+			for (l in locationArrayNames) {
+				var newLocations = {};
+				var locationArray = FC.locations.getLocationArray(locationArrayNames[l]);
+				if (typeof locationArray[country] == "undefined") { return false; }
+				for (var s in states) {
+					if (typeof locationArray[country].r[states[s]] == "undefined") { break; }
+					newLocations[states[s]] = locationArray[country].r[states[s]];
+				}
+	 
+				if (locationArrayNames[l] == "customer") {
+					FC.locations.config.locations[country].r = newLocations;
+				} else {
+					FC.locations.config.shippingLocations[country].r = newLocations;
+				}
+			}
+			return true;
+		}
+	 
+		FC.locations.updateFoxyComplete = function(blockErrors) {
+			FC.checkout.config.evaluateAjaxRequests = false;
+	 
+			FC.checkout.setAutoComplete("customer_country");
+			if (jQuery("#customer_country_name") != "") {
+				FC.checkout.validateLocationName("customer_country");
+			}
+			if (jQuery("#customer_state_name").val() != "") {
+				FC.checkout.validateLocationName("customer_state");
+			}
+			if (blockErrors) {
+				FC.checkout.updateErrorDisplay("customer_country_name", false);
+				FC.checkout.updateErrorDisplay("customer_state_name", false);
+			}
+			if (!FC.checkout.config.hasMultiship) {
+				FC.checkout.setAutoComplete("shipping_country");
+				if (jQuery("#shipping_country_name") != "") {
+					FC.checkout.validateLocationName("shipping_country");
+				}
+				if (jQuery("#shipping_state_name") != "") {
+					FC.checkout.validateLocationName("shipping_state");
+				}
+				if (blockErrors) {
+					FC.checkout.updateErrorDisplay("shipping_country_name", false);
+					FC.checkout.updateErrorDisplay("shipping_state_name", false);
+				}
+	 
+				FC.checkout.config.evaluateAjaxRequests = true;
+				FC.checkout.updateShipping(-1);
+				FC.checkout.updateTaxes(-1);
+			} else {
+				for (var i = 0; i < FC.checkout.config.multishipDetails.length; i++) {
+					FC.checkout.setAutoComplete("shipto_" + i + "_country");
+					if (jQuery("#shipto_" + i + "_country_name") != "") {
+						FC.checkout.validateLocationName("shipto_" + i + "_country");
+					}
+					if (jQuery("#shipto_" + i + "_state_name") != "") {
+						FC.checkout.validateLocationName("shipto_" + i + "_state");
+					}
+					if (blockErrors) {
+						FC.checkout.updateErrorDisplay("shipto_" + i + "_country_name", false);
+						FC.checkout.updateErrorDisplay("shipto_" + i + "_state_name", false);
+					}
+				}
+	 
+				FC.checkout.config.evaluateAjaxRequests = true;
+				for (var i = 0; i < FC.checkout.config.multishipDetails.length; i++) {
+					FC.checkout.updateShipping(i);
+					FC.checkout.updateTaxes(i);
+				}
+			}
+		}
+	 
+		FC.locations.getLocationArray = function(locationArrayNames) {
+			return (locationArrayNames == "customer") ? FC.locations.config.locations : FC.locations.config.shippingLocations;
+		}
+	 
+		FC.locations.validateLocationArrayNames = function(locationArrayNames) {
+			if (typeof locationArrayNames == "undefined" || locationArrayNames == "" || locationArrayNames == "both") { locationArrayNames = ["customer", "shipping"]; }
+			if (typeof locationArrayNames == "string") { locationArrayNames = [locationArrayNames]; }
+			return locationArrayNames;
+		}
+		//]]>
+	</script>
+	
+	<script type="text/javascript" charset="utf-8">
+	FC.checkout.config.customShipping = {
+	  onLoad: true,  // Set to false if you don't want shipping calculated when the checkout loads
+	  onLocationChange: false // Set to true if your shipping logic relies on updating whenever the shipping location for the order changes
+	};
+	 
+	function calculateShipping() {
+	  var shippingCost = 0;
+	 
+	  /* BEGIN CUSTOM SHIPPING LOGIC */
+	 
+	 var amount = fc_json.product_count;
+	  
+	 if (amount <= 1) {
+	   shippingCost += 12 * amount; 
+	 } 
+	 
+	 else if (amount <= 3) {
+	   shippingCost += 10 * amount; 
+	 }
+	 	 
+	 else if (amount <= 6) {
+	   shippingCost += 7 * amount; 
+	 }
+	 	 
+	 else if (amount <= 9) {
+	   shippingCost += 4 * amount; 
+	 }
+	 	 
+	 else if (amount <= 12) {
+	   shippingCost += 1 * amount; 
+	 } 
+	 
+	 else { // Must be 21 or more products
+	   shippingCost = 0; // Free shipping because they bought so much
+	 }
+	 
+	  /* END CUSTOM SHIPPING LOGIC */
+	 
+	  FC.checkout.config.orderFlatRateShipping = shippingCost;
+	  FC.checkout.updateShipping(-1);
+	}
+	 
+	jQuery(document).ready(function() {
+	  if (FC.checkout.config.customShipping.onLoad) {
+	    runShippingLogic();
+	  }
+	 
+	  if (FC.checkout.config.customShipping.onLocationChange) {
+	    FC.checkout.overload("updateTaxes", function() { runShippingLogic(); }, null);
+	  }
+	});
+	 
+	function runShippingLogic() {
+	  // Check to see if there are actually shippable products in the current cart before running the custom shipping (0.7.1+ only), or just run it for older carts
+	  if ((typeof(FC.checkout.config.hasShippableProducts) === "boolean" && FC.checkout.config.hasShippableProducts) || typeof(FC.checkout.config.hasShippableProducts) === "undefined") {
+	      calculateShipping();
+	  }
+	}
+	</script>
+	
+</head>
+<body>
+	<header class="main-header">
+	<div>
+		<a href="http://www.granitelioncellars.com/" class="logo"><img src="https://granitelioncellars.foxycart.com/cache.php?url=http://www.granitelioncellars.com/images/logo.png" alt="" /></a>
+		<nav class="main-navigation">
+			
+			<a href="http://www.granitelioncellars.com/">Home</a>
+			
+			
+			
+			
+			<a href="http://www.granitelioncellars.com/wine">Wine</a>
+			
+			
+			
+			
+			<a href="http://www.granitelioncellars.com/vineyard">Vineyard</a>
+			
+			
+			
+			
+			<a href="http://www.granitelioncellars.com/club">Club</a>
+			
+			
+			
+			
+			<a href="http://www.granitelioncellars.com/contact">Contact</a>
+			
+			
+			<a href="https://granitelioncellars.foxycart.com/cart?cart=view" class="cart"></a>
+		</nav>
+	</div>
+</header>
+	<div class="checkout">
+	^^cart^^
+</div>
+</body>
+</html>
+
+

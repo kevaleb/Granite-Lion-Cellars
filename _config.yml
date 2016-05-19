@@ -1,0 +1,9 @@
+name: Granite Lion Cellars
+permalink: pretty
+collections:
+  main-pages:
+    output: true
+  wines:
+    output: true
+  avas:
+    output: true

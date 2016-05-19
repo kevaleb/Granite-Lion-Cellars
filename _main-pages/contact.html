@@ -1,0 +1,168 @@
+---
+layout: default
+title: Contact
+description: 
+permalink: /contact/
+navclass: contact
+navtitle: contact
+navorder: 5
+pageclass: contact-us
+image_path: /images/backgrounds/harvest.jpg
+---
+<div class="section-header dark" style="background-image: url({{ page.image_path }});">
+	<section>
+		<h2 class="editable">Don't Be Shy</h2>
+		<h1 class="editable">We would love to hear from you</h1>
+	</section>		
+</div>
+<div class="contact">
+	<section title="Phone">
+		<div class="image phone"></div>
+		<p class="editable">(619) 433-9896</p>
+	</section>
+	<section title="Address">
+		<div class="image map"></div>
+		<p><strong>Granite Lion Cellars</strong></p>
+		<p class="editable">100 yards south of </p>
+		<p class="editable">2824 Jamul Highlands Road</p>
+		<p class="editable">Jamul, Cal 91935</p>
+	</section>
+	<section title="Email">
+		<div class="image mail"></div>
+		<p class="editable">service@granitelioncellars.com</p>
+	</section>
+</div>
+
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCL__svPmfgDVeRkW6w5m7m-TBXV-ECVZ0&sensor=false&extension=.js'></script> 
+ 
+<script> 
+    google.maps.event.addDomListener(window, 'load', init);
+    var map;
+    function init() {
+        var mapOptions = {
+            center: new google.maps.LatLng(32.668401,-117.005975),
+            zoom: 10,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.SMALL,
+            },
+            disableDoubleClickZoom: true,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+            },
+            scaleControl: false,
+            scrollwheel: false,
+            panControl: false,
+            streetViewControl: true,
+            draggable : true,
+            overviewMapControl: true,
+            overviewMapControlOptions: {
+                opened: false,
+            },
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [
+  {
+    "featureType": "road",
+    "elementType": "labels",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "poi",
+    "elementType": "labels",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "transit",
+    "elementType": "labels.text",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  }
+],
+        }
+        var mapElement = document.getElementById('map');
+        var map = new google.maps.Map(mapElement, mapOptions);
+        var locations = [
+['Granite Lion Cellars Vineyard', '100 yards south of 2824 Jamul Highlands Road Jamul, Cal 91935', '(619) 433-9896', 'service@granitelioncellars.com', '', 32.71231985937441, -116.84713026850892, 'https://mapbuildr.com/assets/img/markers/default.png']
+        ];
+        for (i = 0; i < locations.length; i++) {
+			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
+			if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
+			if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
+           if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
+           if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
+            marker = new google.maps.Marker({
+                icon: markericon,
+                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+                map: map,
+                title: locations[i][0],
+                desc: description,
+                tel: telephone,
+                email: email,
+                web: web
+            });
+if (web.substring(0, 7) != "http://") {
+link = "http://" + web;
+} else {
+link = web;
+}
+            bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
+     }
+ function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
+      var infoWindowVisible = (function () {
+              var currentlyVisible = false;
+              return function (visible) {
+                  if (visible !== undefined) {
+                      currentlyVisible = visible;
+                  }
+                  return currentlyVisible;
+               };
+           }());
+           iw = new google.maps.InfoWindow();
+           google.maps.event.addListener(marker, 'click', function() {
+               if (infoWindowVisible()) {
+                   iw.close();
+                   infoWindowVisible(false);
+               } else {
+                   var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+telephone+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
+                   iw = new google.maps.InfoWindow({content:html});
+                   iw.open(map,marker);
+                   infoWindowVisible(true);
+               }
+        });
+        google.maps.event.addListener(iw, 'closeclick', function () {
+            infoWindowVisible(false);
+        });
+ }
+}
+</script>
+
+<div id='map'></div>
+
+<form action="http://maps.google.com/maps" method="get" target="_blank" class="get-directions">
+   <label for="saddr">Enter your location</label>
+   <input type="text" name="saddr" placeholder="Enter your location"/>
+   <input type="hidden" name="daddr" value="2824 Jamul Highlands Road Jamul, Cal 91935" />
+   <input type="submit" value="Get directions" class="button"/>
+</form>
+
+<section class="turn-by-turn">
+	<p>-or-</p>
+	<!--GLC Winery Entrance.-->
+	
+	<ul>
+		<h4>Driving east on Highway 94</h4>
+		<li>Take a right on Lyons Valley Road.</li>
+		<li>Follow Lyons Valley to Jamul Highlands Road and take a right.</li>
+		<li>Follow Jamul Highlands Road to the end.</li>
+	</ul>
+	
+	<ul>
+		<h4>Driving west on Highway 94</h4>
+		<li>take a left on Lyons Valley Road.</li>
+		<li>Follow Lyons Valley Road to Jamul Highlands Road and take a right.....</li>
+	</ul> 
+</section>

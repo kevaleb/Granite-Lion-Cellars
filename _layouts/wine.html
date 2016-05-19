@@ -1,0 +1,83 @@
+---
+layout: default
+css: /css/products.css
+---
+
+<div class="product">
+	<a onclick="goBack()" class="back">Back</a>
+	
+	<img src="{{ page.image_path }}" alt="" />
+	<hgroup>
+		<h1 data-ava="{{ page.ava }}">{{ page.winename }}</h1>
+	</hgroup>
+	
+	<section class="vintage">
+		<h3>Vintage</h3>
+		{% for item in page.years %}
+		<label id="{{ item.year }}" class="{% if forloop.first %}selected{% endif %}">{{ item.year}}</label>
+		<script type="text/javascript">
+			$( ".vintage > label#{{ item.year }}" ).click(function() {	
+				$('.vintage > label.selected').removeClass('selected');
+				$(this).addClass('selected');
+				$('.buy > div.visible').removeClass('visible');
+				$('.buy > #{{ item.year }}-buy').addClass('visible');
+			});
+		</script>
+		{% endfor %}
+	</section>
+	
+	<section class="quantity">
+		<h3>Quantity</h3>
+		<label>
+			<span id="qty-minus" class="qtychange">-</span>
+			<input id="quantity" type="text" name="quantity" value="3" />
+			<span id="qty-plus" class="qtychange">+</span>
+		</label>
+		
+		<script>
+			$(".qtychange").on("click", function() {
+			
+				var $qtyChange = $(this);
+				var oldValue = $("input#quantity").val();
+				
+				if ($qtyChange.attr("id") == "qty-plus") {
+					var newVal = parseFloat(oldValue) + 1;
+				} 
+				else {
+					if (oldValue > 0) {
+						var newVal = parseFloat(oldValue) - 1;
+					} 
+					else {
+						newVal = 0;
+					}
+				}
+				
+				$("input#quantity").val(newVal);
+				$('.quantityinput').val(newVal);
+			});
+		</script>
+	</section>
+	
+	<section class="buy">
+		{% for item in page.years %}
+		<div id="{{ item.year }}-buy" class="{% if forloop.first %}visible{% endif %}">
+			<h2>{{ item.price }}</h2>
+			
+			<form action="https://granitelioncellars.foxycart.com/cart" method="post">
+				<input type="hidden" name="name" value="{{ item.year }} {{ page.ava }} {{ page.winery }} {{ page.winename }}" />
+				<input type="hidden" name="price" value="{{ item.price }}"/>
+				<input type="hidden" name="image" value="{{ page.image_path }}" />
+				<input type="hidden" name="quantity" value="3" class="quantityinput"/>
+				
+				<input type="submit" value="Add To Cart" class="button"/>
+			</form>
+		</div>
+		{% endfor %}
+	</section>
+</div>
+
+
+
+<article>
+	{{ content }}
+</article>

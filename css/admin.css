@@ -1,0 +1,47 @@
+/* @override http://0.0.0.0:4000/css/admin.css */
+
+.admin-panel {
+	max-width: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+.admin-panel > h1 {
+	font: 700 24px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.admin-panel > p {
+	font: 200 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.admin-panel > form {
+	padding: 24px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.admin-panel > form > div {
+	margin: 0 0 12px;
+}
+.admin-panel > form > div > label {
+	display: inline-block;
+	width: 100px;
+	padding: 0 12px 0 0;
+	font: 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: right;
+}
+.admin-panel > form > div > input,
+.admin-panel > form > div > textarea {
+	width: 100px;
+	height: 24px;
+	border: 1px solid #b3b3b3;
+	border-top-color: #999;
+	border-radius: 3px;
+}
+.admin-panel > form > div > textarea {
+	min-width: 250px;
+	min-height: 75px;
+	margin: 0 0 0 8px;
+	vertical-align: middle;
+}
+.admin-panel > form > div > span {
+	font: 200 12px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #999;
+}

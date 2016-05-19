@@ -1,0 +1,562 @@
+/* @override http://0.0.0.0:4000/css/products.css */
+
+/* @group PRODUCTS */
+.products {
+	position: relative;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 96px 0 0 250px;
+}
+
+
+
+/* @group WINE GRID */
+.products > .wine-grid {
+	width: 100%;
+	padding: 24px ;
+	border-left: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+
+
+
+
+
+/* @group HEADER */
+.wine-grid > header {
+	overflow: hidden;
+	margin: 0px 0 24px 0;
+}
+.wine-grid > header > h2 {
+	display: inline-block;
+	margin: 0;
+	padding: 12px;
+	font: 500 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+/* @group TOGGLE */
+.wine-grid > header > .toggle {
+	float: right;
+	overflow: hidden;
+	/*padding: 12px 0;*/
+}
+.wine-grid > header > .toggle > span {
+	/*float: right;*/
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	/*padding: 6px;*/
+	/*background-color: #f16;*/
+	background-image: url(/images/icons.png);
+	cursor: pointer;
+}
+.wine-grid > header > .toggle > span:hover {
+	opacity: 1;
+}
+.wine-grid > header > .toggle > span.grid {
+	background-position: 0px 0px;
+}
+.wine-grid > header > .toggle > span.list {
+	background-position: -25px 0px;
+	opacity: .5;
+}
+
+/* @end */
+
+/* @end */
+
+
+
+
+
+
+
+/* @group LIST ITEMS */
+.products > .wine-grid > a {
+	position: relative;
+	/*float: left;*/
+	display: inline-block;
+	width: 32%;
+	margin: 0 -.25em 36px 1%;
+	padding: 6px 0;
+	text-decoration: none;
+	overflow: hidden;
+	vertical-align: top;
+}
+.products > .wine-grid > a:hover {
+	opacity: .9;
+}
+.products > .wine-grid > a > img {
+	width: 100%;
+}
+.products > .wine-grid > a > .image {
+	width: 100%;
+	height: 425px;
+	background-position: center top;
+	background-size: cover;
+}
+.products > .wine-grid > a > hgroup {
+	/*position: absolute;*/
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 12px 0;
+	/*background: rgba(0,0,0,.15);*/
+}
+.products > .wine-grid > a > hgroup > h2 {
+	margin: 0;
+	font: 24px/30px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #b6ac67;
+}
+.products > .wine-grid > a > hgroup > h2:before {
+	content: attr(title);
+	display: block;
+	font-size: 14px;
+	line-height: 14px;
+}
+.products > .wine-grid > a > hgroup > p {
+	margin: 0;
+	font: 200 16px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+}
+.products > .wine-grid > a > hgroup > p:before {
+	content: '$';
+}
+
+/* @end */
+
+/* @end */
+
+/* @group WINE GRID - LIST */
+.products > .wine-grid.list {
+	/*padding: 24px;*/
+}
+
+
+
+/* @group HEADER */
+.wine-grid.list > header > .toggle > span.grid {
+	opacity: .5;
+}
+.wine-grid.list > header > .toggle > span.list {
+	opacity: 1;
+}
+
+/* @end */
+
+
+
+
+/* @group LIST ITEMS */
+.products > .wine-grid.list > a {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.products > .wine-grid.list > a:first-of-type {
+	border-top: 1px solid #ccc;
+}
+.products > .wine-grid.list > a > img {
+	float: left;
+	max-height: 84px;
+	width: auto;
+}
+.products > .wine-grid.list > a > .image {
+	width: 72px;
+	height: 72px;
+	float: left;
+}
+.products > .wine-grid.list > a > hgroup {
+	padding: 24px 24px 0 0;
+	/*overflow: hidden;*/
+}
+.products > .wine-grid.list > a > hgroup:after {
+	content: '\00a0';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.products > .wine-grid.list > a > hgroup > h2 {
+	float: left;
+}
+.products > .wine-grid.list > a > hgroup > p {
+	float: right;
+	line-height: 30px;
+}
+
+/* @end */
+
+/* @end */
+
+
+
+
+
+
+
+
+/* @group TOGGLE */
+.products > .wine-grid.collections > a {
+	display: none;
+}
+.products > .wine-grid.collections > a.collections {
+	display: inline-block;
+}
+
+
+
+.products > .wine-grid.red > a {
+	display: none;
+}
+.products > .wine-grid.red > a.red {
+	display: inline-block;
+}
+
+
+.products > .wine-grid.white > a {
+	display: none;
+}
+.products > .wine-grid.white > a.white {
+	display: inline-block;
+}
+
+
+.products > .wine-grid.south-coast > a {
+	display: none;
+}
+.products > .wine-grid.south-coast > a.south-coast {
+	display: inline-block;
+}
+
+
+.products > .wine-grid.napa > a {
+	display: none;
+}
+.products > .wine-grid.napa > a.napa {
+	display: inline-block;
+}
+
+
+.products > .wine-grid.lodi > a {
+	display: none;
+}
+.products > .wine-grid.lodi > a.lodi {
+	display: inline-block;
+}
+
+
+.products > .wine-grid. > a {
+	display: none;
+}
+.products > .wine-grid. > a. {
+	display: inline-block;
+}
+
+
+
+/* @end */
+
+
+
+
+
+
+
+
+/* @group ASIDE */
+.products > aside {
+	position: absolute;
+	left: 0;
+	top: 96px;
+	padding: 24px 24px 0 0;
+}
+.products > aside > h3 {
+	margin: 0;
+	font: 500 15px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	cursor: default;
+}
+.products > aside > a+h3 {
+	margin-top: 36px;
+}
+.products > aside > a {
+	display: block;
+	padding: 0 0 0 6px;
+	font: 200 15px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
+.products > aside > a:hover {
+	color: #000;
+}
+.products > aside > a.active {
+	color: #b6ac67;
+}
+
+/* @end */
+
+/* @end */
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* @group PRODUCT */
+.product {
+	position: relative;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding-top: 96px;
+	overflow: hidden;
+}
+.product > .back {
+	position: absolute;
+	z-index: 100;
+	left: 0px;
+	top: 96px;
+	padding: 10px 0;
+	font: 200 14px/25px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	cursor: pointer;
+	opacity: .75;
+}
+.product > .back:hover {
+	opacity: 1;
+}
+.product > .back:before {
+	content: '\00a0';
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url('/images/icons.png') no-repeat -50px 0;
+	vertical-align: center;
+}
+.product > img {
+	float: left;
+	width: 40%;
+	margin: 0 24px 0 0;
+}
+
+
+/* Hgroup */
+.product > hgroup > h1 {
+	margin: 24px 0 0 0;
+	font: 36px/48px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
+	color: #b6ac67;
+}
+.product > hgroup > h1:before {
+	content: attr(title);
+	display: block;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0;
+}
+.product > section > p {
+	font:200 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+}
+
+
+
+/* Section */
+.product > section {
+	margin: 12px 0 0 0;
+}
+.product > section > h3 {
+	font: 200 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+/* Vintage */
+.product > .vintage {
+	
+}
+.product > .vintage > label {
+	display: inline-block;
+	padding:6px 12px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 3px;
+	text-align: center;
+	color: #000;
+	font: 18px/24px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #b6ac67;
+	vertical-align: middle;
+}
+.product > .vintage > label:hover{
+	background: #b6ac67;
+	color: #fff;
+	cursor: pointer;
+}
+.product > .vintage > label.selected {
+	cursor: pointer;
+	border-color: #b6ac67;
+}
+.product > .vintage > label > input {
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+
+
+
+
+/* Quantity */
+.product > .quantity {
+	
+}
+.product > .quantity > label {
+	display: inline-block;
+	padding: 0px 0px;
+	border: 1px solid #b6ac67;
+	border-radius: 3px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.product > .quantity > label > input {
+	display: inline-block;
+	float: left;
+	width: 48px;
+	height: 30px;
+	padding: 0px;
+	background: none;
+	border: none;
+	outline: none;
+	font: 200 18px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	color: #b6ac67;
+}
+.product > .quantity > label > span {
+	display: inline-block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	font: 100 16px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #b6ac67;
+	text-align: center;
+	vertical-align: middle;
+}
+.product > .quantity > label > span:hover {
+	cursor: pointer;
+	background: #b6ac67;
+	color: #fff;
+}
+
+
+
+
+/* Buy */
+.product > .buy {
+	margin: 36px 0 0 0;
+}
+.product > .buy > div {
+	display: none;
+}
+.product > .buy > div.visible {
+	display: block;
+}
+.product > .buy > div > h2 {
+	display: inline-block;
+	margin: 0 24px 0 0;
+	vertical-align: middle;
+	font:100 36px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #000;
+}
+.product > .buy > div > h2:before {
+	content: '$';
+}
+.product > .buy > div > .button {
+	margin: 0;
+}
+
+/* @end */
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1080px) {	
+	
+	.products > aside {
+		padding: 24px;
+	}
+	
+}
+
+
+
+@media all and (max-width: 800px) {	
+	
+	.products  {
+		padding: 0;
+	}
+	.products > aside {
+		display: none;
+	}
+	
+	.product {
+		padding-top: 12px;
+	}
+	.product > .back {
+		top: 0px;
+	}
+	
+}
+
+
+
+@media all and (max-width: 500px) {
+	
+	.products > .wine-grid > a {
+		width: 48%;
+		margin: 0 -.25em 36px 2%;
+	}
+	.products > .wine-grid > a > .image {
+		height: 225px;
+	}
+	
+	
+	
+	.product > img {
+		float: none;
+		width: 100%;
+	}
+	.product > section {
+		position: relative;
+		top: -4px;
+		float: none;
+		width: 100%;
+		padding: 24px;
+		text-align: center;
+		box-shadow: 0 -1px 5px rgba(0,0,0,.25) ;
+	}
+	
+}
+	

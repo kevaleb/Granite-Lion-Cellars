@@ -1,0 +1,41 @@
+---
+layout: default
+title: San Diego Wine | Granite Lion Cellars
+description: We produce vintage wine right here in san diego.
+permalink: /wine/
+navclass: wine/
+navtitle: wine
+navorder: 1
+---
+
+<div class="products">		
+	<section class="wine-grid">
+		<header>
+			<div class="toggle" onclick="$('.wine-grid').toggleClass('list');">
+				<span class="list"></span>
+				<span class="grid selected"></span>
+			</div>
+		</header>
+	  {% for item in site.wines %}
+	    <a href="{{ item.url }}">
+	    	<img src="{{ item.image_path }}" alt="" />
+	    	<hgroup>
+	    		<h2 title="{{ item.ava }}">{{ item.winename }}</h2>
+	    		{% for year in item.years %}
+	    		{% if forloop.first %}
+	    		<p>{{ year.price }}</p>
+	    		{% endif %}
+	    		{% endfor %}
+	    	</hgroup>
+	    </a>
+	  {% endfor %}
+	</section>
+	<aside>
+		<h3>General</h3>
+		{% for item in site.avas %}
+		
+		
+		
+		{% endfor %}
+	</aside>
+</div>

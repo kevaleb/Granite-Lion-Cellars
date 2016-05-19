@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="content admin">
+	<nav>
+		<header>
+			<h2>Administrators</h2>
+		</header>
+		<ul>			
+			<h3>Manage Orders & Customers</h3>
+			{% if page.pageclass == 'log-in-order-desk' %}
+				<li class="selected"><a href="">Log in to Order Desk</a></li>
+			{% else %}
+				<li><a href="/admin/orders-customers/log-in">Log in to Order Desk</a></li>
+			{% endif %}
+			
+			
+			{% if page.pageclass == 'edit-customer' %}			
+				<li class="selected"><a href="">Edit Customer Details</a></li>
+			{% else %}
+				<li><a href="/admin/orders-customers/edit-customer">Edit Customer Details</a></li>
+			{% endif %}
+			
+			
+			{% if page.pageclass == 'issue-refund' %}			
+				<li class="selected"><a href="">Issue Refunds (coming soon)</a></li>
+			{% else %}
+				<li><a href="#">Issue Refunds (coming soon)</a></li>
+			{% endif %}
+			
+			
+			
+			
+			<h3>Emails & Subscribers</h3>
+			{% if page.pageclass == 'email-login' %}			
+				<li class="selected"><a href="">Log in to email client</a></li>
+			{% else %}
+				<li><a href="/admin/email-subscribers/log-in">Log in to email client</a></li>
+			{% endif %}
+		</ul>
+	</nav>
+	<article>
+		{{ content }}
+	</article>
+</div>
+{% include footer.html %}

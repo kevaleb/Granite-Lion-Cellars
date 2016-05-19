@@ -1,0 +1,45 @@
+---
+layout: default
+title: San Diego Wine | Granite Lion Cellars
+description: We produce vintage wine right here in san diego.
+css: /css/products.css
+navclass: wine/
+navtitle: wine
+---
+
+<div class="products">		
+	<section class="wine-grid">
+		<header>
+			<div class="toggle" onclick="$('.wine-grid').toggleClass('list');">
+				<span class="list"></span>
+				<span class="grid selected"></span>
+			</div>
+		</header>
+	  {% for post in site.posts %}
+	    <a href="{{ post.url }}" class="{{ post.category }}">
+	    	<!--<div class="image" style="background-image: url('{{ post.product-image }}');"></div>-->
+	    	<img src="{{ post.product-image }}" alt="" />
+	    	<hgroup>
+	    		<h2 title="{{ post.region }}">{{ post.title }}</h2>
+	    		<p>{{ post.price }}</p>
+	    	</hgroup>
+	    </a>
+	  {% endfor %}
+	</section>
+	<aside>
+		<h3>General</h3>
+		<a class="selected" onclick="$('a.active').removeClass('active'),$('.wine-grid').removeClass(),$('.products > section').addClass('wine-grid');">All</a>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('collections');">Collections</a>
+		
+		<h3>Region</h3>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('south-coast');">South Coast</a>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('napa');">Napa Valley</a>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('lodi');">Lodi</a>
+		
+		<h3>Color</h3>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('red');">Red</a>
+		<a onclick="$(this).toggleClass('active'),$('.wine-grid').toggleClass('white');">White</a>
+	</aside>
+</div>
+
+{% include footer.html %}

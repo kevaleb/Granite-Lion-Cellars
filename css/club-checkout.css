@@ -1,0 +1,262 @@
+/* @override http://0.0.0.0:4000/css/club-checkout.css */
+
+/* @group CLUB CHECKOUT */
+.club-checkout {
+	position: relative;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 96px 0 0 0;
+}
+
+.club-checkout > aside {
+	position: absolute;
+	top: 96px;
+	right: 0;
+	width: 250px;
+	height: 100%;
+	padding: 24px 0;
+	background: #f2f2f2;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	border-bottom: none;
+	text-align: center;
+}
+.club-checkout > aside > img {
+	margin: 12px 0 24px 0;
+}
+.club-checkout > aside > a {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 12px;
+	background: -webkit-linear-gradient(top, #fff, #e5e5e5);
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font: 12px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #999;
+	text-decoration: none;
+}
+.club-checkout > aside > a:before {
+	content: '« ';
+}
+
+
+
+.club-checkout > aside > ul {
+	padding: 0;
+	list-style: none;
+}
+.club-checkout > aside > ul > li {
+	padding: 12px;
+	border-top: 1px solid #e5e5e5;
+	box-shadow: 0 1px 0 #fff inset;
+	font: 200 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: left;
+}
+.club-checkout > aside > ul > li > strong {
+	float: right;
+	margin: -9px 0 0 12px;
+	font: 500 16px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+.club-checkout > aside > ul > ul {
+	padding-bottom: 12px;
+}
+.club-checkout > aside > ul> ul > li {
+	font: 200 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+	text-align: left;
+}
+.club-checkout > aside > ul > ul > li > strong {
+	float: right;
+	margin: 0 0 0 12px;
+	font: 500 24px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
+}
+
+.club-checkout > aside > #submit-button {
+	padding: 6px 18px;
+	border: 1px solid #1c5106;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(top, #7ebb3a 0%, #4c7222 100%) green;
+	background: linear-gradient(to bottom, #7ebb3a 0%, #4c7222 100%) green;
+	box-shadow: 0 1px 0 rgba(255,255,255,.25)inset, 0 1px 0 rgba(255,255,255,.5), 0 3px 5px rgba(0,0,0,.25);
+	font: 700 14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.5);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.club-checkout > form {
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 50px 300px 50px 50px;
+	border-left: 1px solid #e5e5e5;
+}
+
+
+.club-checkout > form > h3 {
+	margin: 0;
+	font: 700 24px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-checkout > form > h3~h3 {
+	margin: 50px 0 0 0;
+}
+.club-checkout > form > h3:before {
+	content: attr(title);
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	margin: 0 12px 0 0;
+	background: #000;
+	border-radius: 36px;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.club-checkout > form > label {
+	display: block;
+	margin: 0 0 12px 0;
+	font: 200 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-checkout > form > label:before{
+	content: attr(title)':';
+	display: inline-block;
+	width: 150px;
+	max-width: 30%;
+	
+	text-align: right;
+	/*background: #f16;*/
+}
+.club-checkout > form > label > input {
+	width: 200px;
+	max-width: 30%;
+	height: 30px;
+	padding: 0 12px;
+	border: 1px solid #b3b3b3;
+	border-radius: 3px;
+}
+.club-checkout > form > label.error > input {
+	border: 2px solid red;
+}
+
+/* @end */
+
+
+
+
+
+/* @group CLUB RECEIPT */
+.club-receipt {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 100px 10% 0 10%;
+}
+.club-receipt > h1 {
+	margin: 50px 0 0 0;
+	font:100 30px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-receipt > h2 {
+	margin: 0;
+	font: 700 36px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-receipt > h3 {
+	font: 200 24px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-receipt > p {
+	font: 200 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.club-receipt > .coupon {
+	max-width: 75%;
+	margin: 48px auto;
+	padding: 24px;
+	border:3px dashed #ccc;
+	border-radius: 12px;
+	text-align: center;
+}
+.club-receipt > .coupon > h1 {
+	margin: 0;
+	font: 700 48px/60px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.club-receipt > .coupon > p {
+	font: 200 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #999;
+}
+
+
+
+/* @group RECEIPT */
+.receipt {
+	margin: 0 0 48px 0;
+}
+.receipt > div {
+	float: left;
+	width: 49%;
+	margin: 0 0 2% 0;
+	padding: 5%;
+	border: 1px solid #ccc;
+}
+.receipt > div+div {
+	float: right;
+}
+.receipt > table {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+.receipt > table td {
+	padding: 12px;
+	font: 700 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: right;
+}
+.receipt > table th {
+	padding: 12px;
+	font: 200 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: right;
+}
+
+
+.receipt > table > thead tr {
+	padding: 0 0 12px 0;
+}
+.receipt > table > thead th {
+	font-size: 12px;
+	color: #999;
+}
+.receipt > table > thead th:first-of-type {
+	text-align: left;
+}
+
+
+.receipt > table tbody {
+	border-bottom: 1px solid #ccc;
+}
+.receipt > table tbody td:first-of-type {
+	text-align: left;
+	font-weight: 200;
+}
+
+
+.receipt > table > tfoot {
+	
+}
+.receipt > table > tfoot th {
+	text-align: right;
+}
+
+/* @end */
+
+/* @end */

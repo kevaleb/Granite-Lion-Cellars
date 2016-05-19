@@ -1,0 +1,49 @@
+---
+layout: default
+css: /css/products.css
+pageclass: wine
+---
+
+<div class="product">
+	<a onclick="goBack()" class="back">Back</a>
+	<img src="{{ page.product-image }}" />
+	<section>
+		<h1 title="{{ page.region }}">{{ page.title }}</h1>
+		
+		<form action="https://granitelioncellars.foxycart.com/cart" method="post">
+			<input type="hidden" name="name" value="{{ page.region }} {{ page.title }}" />
+			<input type="hidden" name="price" value="{{ page.price }}" class="final-price"/>
+			<input type="hidden" name="image" value="http://www.steelecanyonwinery.com{{ page.product-image }}" />
+			
+			{{ content }}
+			
+			<label>
+				<h3>Quantity</h3>
+				<input type="text" name="quantity" value="1" />
+			</label>
+			<input type="submit" value="Add To Cart" class="button"/>
+		</form>
+	</section>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		window.calculatePrice();
+	});
+	
+    $('select').change(function(){
+		window.calculatePrice();
+    });
+	
+	window.calculatePrice = function()
+	{
+		var sizePrice = $('#size').find(':selected').data('price') != undefined ? $('#size').find(':selected').data('price') : 0;
+		var yearPrice = $('#year-price').find(':selected').data('price-bump') != undefined ? $('#year-price').find(':selected').data('price-bump') : 0;
+		console.log(yearPrice, sizePrice)
+		
+		var totalPrice = sizePrice + yearPrice;
+		
+		$('.final-price').html(totalPrice);
+		$('.final-price').val(totalPrice);
+	}
+</script>
