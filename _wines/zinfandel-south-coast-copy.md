@@ -1,12 +1,12 @@
 ---
 layout: wine
-title: South Coast Zinfandel
-permalink: wine/zinfandel/
-winename: zinfandel
+title: Napa Zinfandel
+permalink: wine/napa-zinfandel/
+winename: napa zinfandel
 varietal: zinfandel
-ava: south-coast
+ava: napa
 color: red
-image_path: /images/wine/red/zin.jpg
+image_path: /images/wine/red/napa-zin.jpg
 years:
   - year: 2011
     price: 28
