@@ -4,7 +4,6 @@ title: South Coast Zinfandel
 permalink: wine/zinfandel/
 winename: zinfandel
 varietal: zinfandel
-wineryname: granite lion cellars
 ava: lodi
 image_path: /images/wine/red/cab-reserve.jpg
 years:
