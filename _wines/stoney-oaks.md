@@ -1,6 +1,6 @@
 ---
 layout: wine
-title: stoney
+title: South Coast Stoney Oaks
 permalink: wine/stoney-oaks/
 winename: stoney oaks
 varietal: red blend
