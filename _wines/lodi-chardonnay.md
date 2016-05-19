@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: lodi chardonnay
-permalink: wine//
-winename:
-varietal:
-ava: south-coast
-color:
-image_path: /images/wine//.jpg
+permalink: wine/lodi chardonnay/
+winename: lodi chardonnay
+varietal: chardonnay
+ava: lodi
+color: white
+image_path: /images/wine/white/lodi-chardonnay.jpg
 years:
   - year: 2011
-    price: 28
+    price: 18
   - year: 2012
-    price: 28
+    price: 18
   - year: 2013
-    price: 28
+    price: 18
 ---
+
+
