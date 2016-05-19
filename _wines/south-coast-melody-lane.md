@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: south coast melody lane
-permalink: wine//
-winename:
-varietal:
+permalink: wine/south coast melody lane/
+winename: south coast melody lane
+varietal: white blend
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/melody-lane.jpg
 years:
   - year: 2011
-    price: 28
+    price: 20
   - year: 2012
-    price: 28
+    price: 20
   - year: 2013
-    price: 28
+    price: 20
 ---
+
+
