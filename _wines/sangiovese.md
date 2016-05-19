@@ -1,12 +1,12 @@
 ---
 layout: wine
-title: Sangiovese
-permalink: wine//
-winename:
-varietal:
+title: South Coast Sangiovese
+permalink: wine/sangiovese/
+winename: south coast sangiovese
+varietal: sangiovese
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: red
+image_path: /images/wine/red/sangiovese.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
