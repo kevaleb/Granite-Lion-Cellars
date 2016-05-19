@@ -1,17 +1,19 @@
 ---
 layout: wine
-title: napa malbec
-permalink: wine//
-winename:
-varietal:
-ava: south-coast
-color:
-image_path: /images/wine//.jpg
+title: Napa Valley Malbec
+permalink: wine/napa-malbec/
+winename: Napa Malbec
+varietal: malbec
+ava: napa
+color: red
+image_path: /images/wine/red/napa-malbec.jpg
 years:
   - year: 2011
-    price: 28
+    price: 24
   - year: 2012
-    price: 28
+    price: 24
   - year: 2013
-    price: 28
+    price: 24
 ---
+
+
