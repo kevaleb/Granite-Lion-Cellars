@@ -4,8 +4,8 @@ title: South Coast Zinfandel
 permalink: wine/zinfandel/
 winename: zinfandel
 varietal: zinfandel
-ava: lodi
-image_path: /images/wine/red/cab-reserve.jpg
+ava: south-coast
+image_path: /images/wine/red/zin.jpg
 years:
   - year: 2011
     price: 28
