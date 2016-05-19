@@ -5,6 +5,7 @@ permalink: wine//
 winename:
 varietal:
 ava: south-coast
+color:
 image_path: /images/wine//.jpg
 years:
   - year: 2011
