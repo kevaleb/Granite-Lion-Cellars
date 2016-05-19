@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: South Coast Merlot
-permalink: wine//
-winename:
-varietal:
+permalink: wine/merlot/
+winename: south coast merlot
+varietal: merlot
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: red
+image_path: /images/wine/red/merlot.jpg
 years:
   - year: 2011
-    price: 28
+    price: 30
   - year: 2012
-    price: 28
+    price: 30
   - year: 2013
-    price: 28
+    price: 30
 ---
+
+
