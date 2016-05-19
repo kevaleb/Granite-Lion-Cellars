@@ -1,12 +1,12 @@
 ---
 layout: wine
-title: South Coast Petite Syrah
-permalink: wine//
-winename:
-varietal:
+title: South Coast Petite Sirah
+permalink: wine/petite-sirah/
+winename: south coast petite sirah
+varietal: petite sirah
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: red
+image_path: /images/wine/red/petite-sirah.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
