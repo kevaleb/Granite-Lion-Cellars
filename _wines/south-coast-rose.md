@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: south coast rose
-permalink: wine//
-winename:
-varietal:
+permalink: wine/south coast rose/
+winename: south coast rose
+varietal: rose
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/rose.jpg
 years:
   - year: 2011
-    price: 28
+    price: 24
   - year: 2012
-    price: 28
+    price: 24
   - year: 2013
-    price: 28
+    price: 24
 ---
+
+
