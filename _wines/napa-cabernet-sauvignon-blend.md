@@ -1,17 +1,19 @@
 ---
 layout: wine
-title: napa cabernet sauvignon blend
-permalink: wine//
-winename:
-varietal:
-ava: south-coast
-color:
-image_path: /images/wine//.jpg
+title: Napa cabernet sauvignon blend
+permalink: wine/napa cabernet sauvignon blend/
+winename: napa cabernet sauvignon blend
+varietal: cabernet sauvignon
+ava: napa
+color: red
+image_path: /images/wine/red/napa-cab-blend.jpg
 years:
   - year: 2011
-    price: 28
+    price: 36
   - year: 2012
-    price: 28
+    price: 36
   - year: 2013
-    price: 28
+    price: 36
 ---
+
+
