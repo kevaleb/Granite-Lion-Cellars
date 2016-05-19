@@ -1,11 +1,11 @@
 ---
 layout: wine
-title: Zinfandel South Coast
-permalink: wine/cabernet-sauvignon-reserve-2/
-winename: cabernet sauvignon reserve
-varietal: cabernet sauvignon
+title: South Coast Zinfandel
+permalink: wine/zinfandel/
+winename: zinfandel
+varietal: zinfandel
 wineryname: granite lion cellars
-ava: south coast
+ava: lodi
 image_path: /images/wine/red/cab-reserve.jpg
 years:
   - year: 2012
@@ -13,3 +13,5 @@ years:
   - year: 2013
     price: 24.95
 ---
+
+
