@@ -1,12 +1,12 @@
 ---
 layout: wine
 title: south coast sauvignon blanc
-permalink: wine//
-winename:
-varietal:
+permalink: wine/south coast sauvignon blanc/
+winename: south coast sauvignon blanc
+varietal: sauvignon blanc
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/sauvignon-blanc.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
