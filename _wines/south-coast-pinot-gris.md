@@ -1,17 +1,19 @@
 ---
 layout: wine
 title: south coast pinot gris
-permalink: wine//
-winename:
-varietal:
+permalink: wine/south coast pinot gris/
+winename: south coast pinot gris
+varietal: pinot gris
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/pinot-gris.jpg
 years:
   - year: 2011
-    price: 28
+    price: 26
   - year: 2012
-    price: 28
+    price: 26
   - year: 2013
-    price: 28
+    price: 26
 ---
+
+
