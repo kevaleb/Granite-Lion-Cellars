@@ -5,6 +5,7 @@ permalink: wine/stoney-oaks/
 winename: stoney oaks
 varietal: red blend
 ava: south-coast
+color: red
 image_path: /images/wine/red/stoney-oaks.jpg
 years:
   - year: 2011
