@@ -1,12 +1,12 @@
 ---
 layout: wine
-title: lodi zinfandel
-permalink: wine//
-winename:
-varietal:
-ava: south-coast
-color:
-image_path: /images/wine//.jpg
+title: Lodi Zinfandel
+permalink: wine/lodi-zinfandel/
+winename: lodi zinfandel
+varietal: zinfandel
+ava: lodi
+color: red
+image_path: /images/wine/red/lodi-zin.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
