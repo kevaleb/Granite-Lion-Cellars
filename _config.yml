@@ -11,3 +11,4 @@ collections:
     output: true
   product-types:
     output: true
+  quarterly-shipments:
