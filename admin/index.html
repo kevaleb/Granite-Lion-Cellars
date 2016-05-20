@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-	<h1>Admin</h1>
+	<h1>Quarterly Club Shipment Links</h1>
 	{% for item in site.quarterly-shipments %}
 	<a href="
 	https://granitelioncellars.foxycart.com/cart?
@@ -27,6 +27,6 @@ layout: default
 		&{{ count }}:quantity_min=1
 		
 		{% endfor %} 
-	">{{ item.title }}</a>
+	" class="button">{{ item.title }}</a>
 	{% endfor %} 
 </section>

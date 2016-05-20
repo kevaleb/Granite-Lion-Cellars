@@ -15,5 +15,3 @@ products:
     ava: south-coast
     price: '24'
 ---
-
-
