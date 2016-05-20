@@ -12,7 +12,7 @@ years:
   - year: 2012
     price: 36
   - year: 2013
-    price: 40
+    price: 36
 ---
 
 
