@@ -2,7 +2,7 @@
 title: Summer 2016
 products:
   - wine:
-    year:
+    years:
 ---
 
 
