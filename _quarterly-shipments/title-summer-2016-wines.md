@@ -1,5 +1,6 @@
 ---
 title: Summer 2016
 products:
-  years:
+  - product: blah
+    price: 24
 ---
