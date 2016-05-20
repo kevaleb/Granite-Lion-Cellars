@@ -1,12 +1,12 @@
 ---
 layout: wine
 title: Rose 16
-permalink: wine//
-winename:
-varietal:
+permalink: wine/rose16/
+winename: Rose 16
+varietal: Rose
 ava: south-coast
-color:
-image_path: /images/wine//.jpg
+color: white
+image_path: /images/wine/white/rose.jpg
 years:
   - year: 2011
     price: 28
@@ -15,3 +15,5 @@ years:
   - year: 2013
     price: 28
 ---
+
+
