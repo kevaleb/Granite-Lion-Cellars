@@ -9,10 +9,8 @@ color: red
 product-type: single
 image_path: /images/wine/red/cab-reserve.jpg
 years:
-  - year: 2011
-    price: 40
   - year: 2012
-    price: 40
+    price: 36
   - year: 2013
     price: 40
 ---
