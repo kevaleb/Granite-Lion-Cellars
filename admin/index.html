@@ -4,4 +4,29 @@ layout: default
 
 <section>
 	<h1>Admin</h1>
+	{% for item in site.quarterly-shipments %}
+	<a href="
+	https://granitelioncellars.foxycart.com/cart?
+	
+	1:name={{ item.title }}
+	&1:code=quarterly
+	&1:price=0
+	&1:category=glc-wine-club
+	&coupon=glc14
+	&1:quantity_max=1
+	
+		{% assign count = '1' %}	
+		{% for wine in item.products %}
+		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+		
+		
+		&{{ count }}:name={{ wine.year }} {{ wine.wine | remove: "/" | remove: "white" | remove: "red" | remove: "collections" | replace: '-', ' ' | capitalize }}
+		&{{ count }}:price={{ wine.price }}
+		&{{ count }}:category={{ item.category }}
+		&{{ count }}:parent_code=quarterly
+		&{{ count }}:quantity_min=1
+		
+		{% endfor %} 
+	">{{ item.title }}</a>
+	{% endfor %} 
 </section>

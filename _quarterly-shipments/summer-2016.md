@@ -1,10 +1,19 @@
 ---
 title: Summer 2016
-wines:
-  - white/south-coast-pinot-gris
-  - white/lodi-chardonnay
-  - red/south-coast-sangiovese
-  - red/south-coast-petite-sirah-copy
+product-category: Test
+products:
+  - wine: collections/afternoon-collection
+    year: '2012'
+    ava: lodi
+    price: '24'
+  - wine: white/south-coast-chardonnay
+    year: '2013'
+    ava: south-coast
+    price: '24'
+  - wine: white/south-coast-sauvignon-blanc
+    year: '2013'
+    ava: south-coast
+    price: '24'
 ---
 
 
