@@ -4,7 +4,10 @@ products:
   - wine: collections/afternoon-collection
     year: '2012'
     price: '24'
-    styles: red, blue, green
+    options:
+      red: Red Shirt
+      blue: Blue Sweater
+      green: Green Jacket
   - wine: red/lodi-tannat
     year: '2013'
     price: '28'
