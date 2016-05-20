@@ -1,9 +1,8 @@
 ---
 title: Summer 2016
 options:
-      red: Red Shirt
-      blue: Blue Sweater
-      green: Green Jacket
+-asdf
+-asdf
 products:
   - wine: collections/afternoon-collection
     year: '2012'
