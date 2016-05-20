@@ -1702,14 +1702,14 @@ display: none;
 	position: relative;
 	max-width: 1080px;
 	margin: 0 auto;
-	padding-top: 96px;
+	padding-top: 24px;
 	overflow: hidden;
 }
 .product > .back {
 	position: absolute;
 	z-index: 100;
 	left: 0px;
-	top: 96px;
+	top: 0px;
 	padding: 10px 0;
 	font: 200 14px/25px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	cursor: pointer;
@@ -1851,7 +1851,7 @@ display: none;
 	display: none;
 }
 .product > .buy > div.visible {
-	display: block;
+	display: inline-block;
 }
 .product > .buy > div > h2 {
 	display: inline-block;
@@ -1863,7 +1863,16 @@ display: none;
 .product > .buy > div > h2:before {
 	content: '$';
 }
+.product > .buy > div > h2:after {
+	content: '/Bottle';
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.product > .buy > div > form {
+	display: inline-block;
+}
 .product > .buy > div > .button {
+	display: inline-block;
 	margin: 0;
 }
 
@@ -2240,40 +2249,82 @@ display: none;
 
 
 @media all and (max-width: 1080px) {
-	.section-header {
-		background-position: 36% center;
-	}
-	
-	.footer > section {
-		padding: 0 24px;
-	}
-	
-	
-	
-	.main-header > div {
-		padding: 12px 24px;
-	}
-	.main-header > div > .logo {
-		width: 300px;
-	}
-	.main-navigation > a {
-		font-size: 15px;
-		margin-left: 10px;
-	}
-	.main-navigation > a:first-of-type {
-		display: none!important;
-	}
+.section-header {
+	background-position: 36% center;
+}
 
-	
-	.products > aside {
-		padding: 24px;
-	}
+.footer > section {
+	padding: 0 24px;
+}
+
+
+
+.main-header > div {
+	padding: 12px 24px;
+}
+.main-header > div > .logo {
+	width: 300px;
+}
+.main-navigation > a {
+	font-size: 15px;
+	margin-left: 10px;
+}
+.main-navigation > a:first-of-type {
+	display: none!important;
+}
+
+
+.products > aside {
+	padding: 24px;
+}
 	
 }
 
 
 
-@media all and (max-width: 840px) {	
+
+
+
+
+
+
+
+@media all and (max-width: 840px) {
+
+
+.content {
+	padding-top: 0;
+}
+
+.main-header {
+	position: relative;
+	height: auto;
+	overflow: visible;
+}	
+.main-header > div {
+	text-align: center;
+}
+.main-header > div > .logo {
+	width: auto;
+	max-width: 100%;
+}
+
+.main-navigation {
+	float: none;
+	height: auto;
+	margin: 0;
+	
+}
+.main-navigation > .cart {
+	position: fixed;
+	z-index: 10000000000000;
+	top: 0px;
+	right: 12px;
+	padding: 6px;
+	background-color: #b6ac67;
+	border-radius: 0 0 3px 3px;
+	opacity: 1;
+}	
 
 .section-header {
 	padding-top: 0;
@@ -2308,39 +2359,6 @@ display: none;
 }
 
 
-
-.main-header {
-	position: relative;
-	height: auto;
-	overflow: visible;
-}	
-.main-header > div {
-	text-align: center;
-}
-.main-header > div > .logo {
-	width: auto;
-	max-width: 100%;
-}
-
-.main-navigation {
-	float: none;
-	height: auto;
-	margin: 0;
-	
-}
-.main-navigation > .cart {
-	position: fixed;
-	z-index: 10000000000000;
-	top: 0px;
-	right: 12px;
-	padding: 6px;
-	background-color: #b6ac67;
-	border-radius: 0 0 3px 3px;
-	opacity: 1;
-}
-
-
-
 .contact-us {
 	padding: 48px;
 }
@@ -2355,19 +2373,19 @@ display: none;
 
 @media all and (max-width: 800px) {	
 	
-	.products  {
-		padding: 0;
-	}
-	.products > aside {
-		display: none;
-	}
-	
-	.product {
-		padding-top: 12px;
-	}
-	.product > .back {
-		top: 0px;
-	}
+.products  {
+	padding: 0;
+}
+.products > aside {
+	display: none;
+}
+
+.product {
+	/*padding-top: 12px;*/
+}
+.product > .back {
+	/*top: 0px;*/
+}
 	
 }
 
@@ -2377,6 +2395,9 @@ display: none;
 
 
 @media all and (max-width: 720px) {
+.product > .buy > div > form {
+	display: block;
+}
 
 .home-page {
 	padding: 0px;
@@ -2437,6 +2458,8 @@ display: none;
 .content > section{
 	padding: 60px 36px;
 }
+
+
 .section-header {
 	height: auto!important;
 	min-height: 30%;
@@ -2459,6 +2482,8 @@ display: none;
 	text-align: center;
 	opacity: 1;
 }
+
+
 .home-page > .section-header.main > section > h1 {
 	font-size: 32px;
 	line-height: 42px;
@@ -2485,31 +2510,40 @@ display: none;
 
 
 
+
+
+
+
 @media all and (max-width: 500px) {
 	
-	.products > .wine-grid > a {
-		width: 48%;
-		margin: 0 -.25em 36px 2%;
-	}
-	.products > .wine-grid > a > .image {
-		height: 225px;
-	}
-	
-	
-	
-	.product > img {
-		float: none;
-		width: 100%;
-	}
-	.product > section {
-		position: relative;
-		top: -4px;
-		float: none;
-		width: 100%;
-		padding: 24px;
-		text-align: center;
-		box-shadow: 0 -1px 5px rgba(0,0,0,.25) ;
-	}
+.products > .wine-grid > a {
+	width: 48%;
+	margin: 0 -.25em 36px 2%;
+}
+.products > .wine-grid > a > .image {
+	height: 225px;
+}
+
+
+
+.product > img {
+	float: none;
+	width: 100%;
+}
+.product > hgroup > h1 {
+	text-align: center;
+}
+.product > section {
+	position: relative;
+	top: -4px;
+	float: none;
+	width: 100%;
+	padding: 24px;
+	text-align: center;
+}
+.product > .buy {
+	margin: 0;
+}
 	
 }
 
