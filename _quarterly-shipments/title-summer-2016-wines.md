@@ -1,7 +1,7 @@
 ---
 title: Summer 2016
 products:
-  - wines:
+  - wine:
     price:
 ---
 
