@@ -1,6 +1,10 @@
 ---
 title: Summer 2016
 wines:
-  - name: 2012 South Coast Sangiovese
-    price: 28
+  - white/south-coast-pinot-gris
+  - white/lodi-chardonnay
+  - red/south-coast-sangiovese
+  - red/south-coast-petite-sirah-copy
 ---
+
+
