@@ -2263,14 +2263,12 @@ display: none;
 	padding: 12px 24px;
 }
 .main-header > div > .logo {
-	width: 300px;
+	width: 250px;
+	margin: 8px 0;
 }
 .main-navigation > a {
 	font-size: 15px;
 	margin-left: 10px;
-}
-.main-navigation > a:first-of-type {
-	display: none!important;
 }
 
 
@@ -2498,12 +2496,13 @@ display: none;
 
 
 .main-navigation {
-	margin: 24px 0;
+	/*margin: 24px 0;*/
 }
 .main-navigation > a {
 	font-size: 12px;
-	line-height: 18px;
+	line-height: 24px;
 	margin: 0 6px 0px 0;
+	padding: 12px 0 0 0;
 }
 	
 }
@@ -2551,17 +2550,17 @@ display: none;
 
 
 
+/*
 
-
-/* @group INVITATION */
+/* @group INVITATION *!/
 .invitation-bg {
 	height: 100%;
 	width: 100%;
 	background: url('/images/invitation/beach.jpg') no-repeat left top;
 	background-attachment: fixed;
-	-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+	-webkit-background-size:/*@@prefixmycss->No equivalent*!/;
 	   -moz-background-size:cover;
-	     -o-background-size:/*@@prefixmycss->No equivalent*/;
+	     -o-background-size:/*@@prefixmycss->No equivalent*!/;
 	        background-size:cover;
 }
 .invitation {
@@ -2571,18 +2570,18 @@ display: none;
 	margin: 0 auto;
 	padding: 36px 36px 500px 36px;
 	cursor: pointer;
-	/*transition*/
+	/*transition*!/
 	-webkit-transition:all .3s ease-in-out 0s;
 	   -moz-transition:all .3s ease-in-out 0s;
 	     -o-transition:all .3s ease-in-out 0s;
 	        transition:all .3s ease-in-out 0s;
-	/*perspective*/
+	/*perspective*!/
 	-webkit-perspective:500px;
 	   -moz-perspective:500px;
 	    -ms-perspective:500px;
 	     -o-perspective:500px;
 	        perspective:500px;
-	/*transform-style*/
+	/*transform-style*!/
 	-webkit-transform-style:preserve-3d;
 	   -moz-transform-style:preserve-3d;
 	    -ms-transform-style:preserve-3d;
@@ -2622,13 +2621,13 @@ display: none;
 .invitation > .card-back {
 	z-index: 300;
 	top: 100px;
-	/*transform*/
+	/*transform*!/
 	-webkit-transform:rotatey(-180deg);
 	   -moz-transform:rotatey(-180deg);
 	    -ms-transform:rotatey(-180deg);
 	     -o-transform:rotatey(-180deg);
 	        transform:rotatey(-180deg);
-	/*backface-visibility*/
+	/*backface-visibility*!/
 	-webkit-backface-visibility:hidden;
 	   -moz-backface-visibility:hidden;
 	    -ms-backface-visibility:hidden;
@@ -2652,11 +2651,11 @@ display: none;
 	opacity: 0;
 }
 
-/* @end */
+/* @end *!/
 
 
 
-/* @group INVITATION - OPEN */
+/* @group INVITATION - OPEN *!/
 .invitation.open {
 	cursor: default;
 }
@@ -2685,12 +2684,12 @@ display: none;
 .invitation.open > .rotate {
 	opacity: 1;
 }
-/* @end */
+/* @end *!/
 
 
-/* @group FLIPPED */
+/* @group FLIPPED *!/
 .invitation.flipped > .card-front {
-	/*z-index: 300;*/
+	/*z-index: 300;*!/
 	-webkit-transform:rotatey(180deg);
 	   -moz-transform:rotatey(180deg);
 	    -ms-transform:rotatey(180deg);
@@ -2713,7 +2712,7 @@ display: none;
 .invitation.flipped > .rotate {
 	
 }
-/* @end */
+/* @end *!/
 
 
 
@@ -2729,4 +2728,4 @@ display: none;
 
 
 
-								
+								*/
