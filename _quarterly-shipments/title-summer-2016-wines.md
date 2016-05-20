@@ -5,11 +5,11 @@ products:
     year: '2012'
     price: '24'
     numbers:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
   - wine: red/lodi-tannat
     year: '2013'
     price: '28'
