@@ -4,10 +4,7 @@ products:
   - wine: collections/afternoon-collection
     year: '2012'
     price: '24'
-    styles:
-    - Red
-    - Blue
-    - Green
+    styles: red, blue, green
   - wine: red/lodi-tannat
     year: '2013'
     price: '28'
