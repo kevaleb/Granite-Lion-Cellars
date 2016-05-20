@@ -1,8 +1,8 @@
 ---
 title: Summer 2016
 options:
--asdf
--asdf
+- asdf
+- asdf
 products:
   - wine: collections/afternoon-collection
     year: '2012'
