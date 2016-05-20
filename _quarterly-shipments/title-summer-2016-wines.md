@@ -1,8 +1,9 @@
 ---
 title: Summer 2016
-options:
-- asdf
-- asdf
+styles:
+  - Red
+  - Blue
+  - Green
 products:
   - wine: collections/afternoon-collection
     year: '2012'
