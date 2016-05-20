@@ -4,7 +4,7 @@ products:
   - wine: collections/afternoon-collection
     year: '2012'
     price: '24'
-    productnumber:
+    productnumbers:
     - 1
     - 2
     - 3
