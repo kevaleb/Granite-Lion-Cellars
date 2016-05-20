@@ -1478,6 +1478,7 @@ display: none;
 	margin: 0;
 	font: 24px/30px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #b6ac67;
+	text-transform: capitalize;
 }
 .products > .wine-grid > a > hgroup > h2:before {
 	content: attr(title);
