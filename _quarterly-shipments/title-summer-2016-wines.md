@@ -1,6 +1,6 @@
 ---
 title: Summer 2016
-wines:
-  - wine: blah
+products:
+  - product: blah
     price: 24
 ---
