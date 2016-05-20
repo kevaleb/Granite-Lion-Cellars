@@ -11,7 +11,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-
+a {
+	
+}
 .button {
 	display: inline-block;
 	margin: 12px 0 0 0;
@@ -25,6 +27,7 @@ html, body {
 	font: 16px/30px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	text-decoration: none;
 }
 .button:hover {
 	cursor: pointer;
@@ -1947,6 +1950,75 @@ display: none;
 }
 
 /* @end */
+
+
+
+
+
+
+/* @group Quarterly Shipments */
+.quarterly-shipments {
+	list-style: none;
+}
+.quarterly-shipments > h1 {
+	margin: 0 0 48px 0;
+	text-align: center;
+	font: 100 36px/36px Georgia, "Times New Roman", Times, serif;
+}
+.quarterly-shipments > li {
+	margin: 0 0 48px 0;
+	padding: 24px;
+	text-align: center;
+}
+.quarterly-shipments > li:after {
+	content: '...';
+	display: block;
+	margin: 96px 0;
+	font: 900 48px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #ccc;
+}
+.quarterly-shipments > li > div {
+	display: inline-block;
+	width: 100%;
+	max-width: 150px;
+	border: 1px solid #ccc;
+}
+.quarterly-shipments > li > h2 {
+	margin: 0 0 24px 0;
+	font: 100 30px/36px Georgia, "Times New Roman", Times, serif;
+	color: #b6ac67;
+}
+.quarterly-shipments > li > div > img {
+	width: 100%;
+	margin: 0 12px 0 0;
+	border-bottom: 1px solid #ccc;
+	vertical-align: middle;
+}
+.quarterly-shipments > li > div > h3 {
+	vertical-align: middle;
+	font: 100 18px/24px Georgia, "Times New Roman", Times, serif;
+	color: #b6ac67;
+}
+.quarterly-shipments > li > div > h4 {
+	vertical-align: middle;
+	font: 200 18px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.quarterly-shipments > li > div > h4:before {
+	content: '$';
+	margin: 0 0 0 12px;
+}
+.quarterly-shipments > li > .button {
+	/*display: block;*/
+	/*width: 100%;*/
+	margin: 24px 0 0 0;
+	padding: 12px 36px ;
+}
+/* @end */
+
+
+
+
+
 
 /* @group ADMIN */
 .admin {
