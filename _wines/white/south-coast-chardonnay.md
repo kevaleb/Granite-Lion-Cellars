@@ -9,12 +9,10 @@ color: white
 product-type: single
 image_path: /images/wine/white/chardonnay.jpg
 years:
-  - year: 2011
-    price: 36
-  - year: 2012
-    price: 36
   - year: 2013
-    price: 36
+    price: 18
+  - year: 2014
+    price: 18
 ---
 
 

@@ -9,10 +9,6 @@ color: white
 product-type: single
 image_path: /images/wine/white/pinot-gris.jpg
 years:
-  - year: 2011
-    price: 26
-  - year: 2012
-    price: 26
   - year: 2013
     price: 26
 ---
