@@ -1116,11 +1116,13 @@ article > ul > li{
 
 
 .club > section > .button {
-	position: absolute;
-	left: 50%;
-	top: -24px;
-	width: 300px;
-	margin: 0 0 0 -150px;
+	position: relative;
+	top: -72px;
+	/*left: 50%;
+	top: -24px;*/
+	/*width: 300px;*/
+	display: inline-block;
+	margin: 0px 0 0 0;
 	font: 200 20px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-align: center;
 }
