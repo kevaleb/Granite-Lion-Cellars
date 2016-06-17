@@ -2,9 +2,16 @@
 layout: default
 ---
 
-<section>
-	<ul class="quarterly-shipments">
+<section class="admin">
+	<h1>Email Client</h1>
+	<a href="http://email.granitelioncellars.com/" class="button">Click Here To Open Your Email Client</a>
+	
+	<h1>Order Management</h1>
+	<a href="https://app.orderdesk.me/login" class="button">Click Here To Manage Your Orders</a>
+	
 	<h1>Quarterly Club Shipment Links</h1>
+	<ul class="quarterly-shipments">
+	
 	{% for item in site.quarterly-shipments %}
 		<li>
 			<h2>{{ item.title }}</h2>
