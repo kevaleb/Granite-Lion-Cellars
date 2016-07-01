@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Wine Tasting San Diego | Granite Lion Cellars
-description: The best san diego wine tasting. 
+title: 'Wine Tasting San Diego | Granite Lion Cellars'
+description: The best san diego wine tasting
 permalink: /wine-tasting-san-diego/
 navclass: tasting
 navtitle: tasting
