@@ -1,5 +1,5 @@
 ---
-title: July Shipment
+title: 3rd Quarterly Shipment
 product-category: glc-wine-club
 products:
   - title: south-coast-melody-lane
