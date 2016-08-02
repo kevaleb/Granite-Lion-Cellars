@@ -1,6 +1,7 @@
 ---
 title: July Shipment
 product-category: glc-wine-club
+coupon:
 products:
   - title: south-coast-melody-lane
     year: '2013'

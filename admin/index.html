@@ -29,8 +29,8 @@ layout: default
 			1:name={{ item.title }}
 			&1:code=quarterly
 			&1:price=0
-			&1:category=glc-wine-club
-			&coupon=glc14
+			&1:category={{ item.product-category }}
+			&coupon={{ item.coupon }}
 			&1:quantity_max=1
 			
 				{% assign count = '1' %}	
