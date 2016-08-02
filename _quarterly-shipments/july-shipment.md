@@ -1,6 +1,6 @@
 ---
 title: 3rd Quarterly Shipment
-product-category: glc-wine-club
+product-category: wine-club
 products:
   - title: Syrah
     year: '2012'
