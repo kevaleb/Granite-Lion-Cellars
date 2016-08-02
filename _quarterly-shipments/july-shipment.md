@@ -1,7 +1,7 @@
 ---
 title: 3rd Quarterly Shipment
 product-category: wine-club
-coupon:
+coupon: granitelionwineclub
 products:
   - title: Syrah
     year: '2012'
