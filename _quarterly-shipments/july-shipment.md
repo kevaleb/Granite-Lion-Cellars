@@ -27,6 +27,11 @@ products:
     ava: south-coast
     price: '0'
     image_path: /images/wine/red/cab-reserve.jpg
+  - title: glc-wine-club
+    year:
+    ava:
+    price:
+    image_path:
 ---
 
 
