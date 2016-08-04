@@ -10,7 +10,7 @@ product-type: single
 image_path: /images/wine/white/chardonnay.jpg
 years:
   - year: 2013
-    price: 18
+    price: 36
   - year: 2014
     price: 18
 ---
