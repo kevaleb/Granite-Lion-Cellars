@@ -16,7 +16,7 @@ products:
   - title: Cabernet Sauvignon Reserve
     year: '2013'
     ava: south-coast
-    price: '36'
+    price: '40'
     image_path: /images/wine/red/cab-reserve.jpg
   - title: Chardonnay
     year: '2012'
