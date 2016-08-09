@@ -1,6 +1,6 @@
 ---
 title: 3rd Quarterly Shipment
-category: glc-wine-club
+category: wine-club
 coupon: granitelionwineclub
 products:
   - title: Syrah
