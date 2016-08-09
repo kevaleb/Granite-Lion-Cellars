@@ -12,7 +12,7 @@ years:
   - year: 2012
     price: 36
   - year: 2013
-    price: 36
+    price: 40
   - year: '2011'
     price: '60'
 ---
