@@ -10,7 +10,7 @@ product-type: single
 image_path: /images/wine/white/sauvignon-blanc.jpg
 years:
   - year: 2014
-    price: 28
+    price: 45
   - year: 2015
     price: 48
 ---
