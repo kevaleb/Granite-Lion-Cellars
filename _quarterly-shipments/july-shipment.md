@@ -1,6 +1,7 @@
 ---
-title: 3rd Quarterly Shipment
-category: wine-club
+title: 4th Quarterly Shipment White
+category:
+  - wine-club
 coupon: granitelionwineclub
 products:
   - title: Syrah
