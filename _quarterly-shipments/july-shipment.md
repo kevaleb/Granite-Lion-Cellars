@@ -4,31 +4,31 @@ category:
   - wine-club
 coupon: granitelionwineclub
 products:
-  - title: Syrah
-    year: '2012'
+  - title: Viognier
+    year: '2014'
     ava: south-coast
-    price: '36'
-    image_path: /images/wine/red/syrah.jpg
-  - title: Cabernet Sauvignon Reserve
-    year: '2012'
+    price: '22'
+    image_path:
+  - title: Sauvignon Blanc
+    year: '2014'
     ava: south-coast
-    price: '36'
-    image_path: /images/wine/red/cab-reserve.jpg
-  - title: Cabernet Sauvignon Reserve
-    year: '2013'
+    price: '28'
+    image_path: /images/wine/white/sauvignon-blanc.jpg
+  - title: Melody Lane
+    year: '2015'
     ava: south-coast
-    price: '40'
-    image_path: /images/wine/red/cab-reserve.jpg
+    price: '20'
+    image_path: /images/wine/white/melody-lane.jpg
   - title: Chardonnay
+    year: '2014'
+    ava: south-coast
+    price: '0'
+    image_path: /images/wine/white/lodi-chardonnay.jpg
+  - title: Chardonnay 375 ML
     year: '2012'
     ava: lodi
     price: '0'
     image_path: /images/wine/white/lodi-chardonnay.jpg
-  - title: Cabernet Suavignon Reserve 375 ML
-    year: '2011'
-    ava: south-coast
-    price: '0'
-    image_path: /images/wine/red/cab-reserve.jpg
 ---
 
 
