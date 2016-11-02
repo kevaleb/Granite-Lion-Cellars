@@ -1,5 +1,5 @@
 ---
-title: 4th Quarterly Shipment Reds
+title: 4th Quarterly Shipment Mixed + Shipping
 category:
   - wine-club
 coupon: granitelionwineclub
@@ -14,21 +14,26 @@ products:
     ava: south-coast
     price: '36'
     image_path: /images/wine/red/cab-reserve.jpg
-  - title: Petit Sirah
-    year: '2011'
+  - title: Melody Lane
+    year: '2015'
     ava: south-coast
-    price: '36'
-    image_path: /images/wine/red/petite-sirah.jpg
-  - title: Syrah
-    year: '2013'
-    ava: south-coast
-    price: '0'
-    image_path: /images/wine/red/syrah.jpg
-  - title: Zinfandel 375 ML
-    year: '2013'
+    price: '20'
+    image_path: /images/wine/white/melody-lane.jpg
+  - title: Rose
+    year: '2014'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/red/zin.jpg
+    image_path: /images/wine/white/rose.jpg
+  - title: Chardonnay 375 ML
+    year: '2012'
+    ava: lodi
+    price: '0'
+    image_path: /images/wine/white/lodi-chardonnay.jpg
+  - title: Shipping
+    year:
+    ava:
+    price: '25'
+    image_path:
 ---
 
 
