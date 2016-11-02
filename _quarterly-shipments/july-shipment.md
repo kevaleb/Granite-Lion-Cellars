@@ -29,11 +29,6 @@ products:
     ava: lodi
     price: '0'
     image_path: /images/wine/white/lodi-chardonnay.jpg
-  - title: Shipping
-    year: '2016'
-    ava: south-coast
-    price: '25'
-    image_path:
 ---
 
 
