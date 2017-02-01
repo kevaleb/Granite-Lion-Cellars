@@ -4,9 +4,9 @@ title:
 permalink:
 winename:
 varietal:
-ava: napa
-color: red
-product-type: single
+ava:
+color:
+product-type:
 image_path:
 years:
   - year:
