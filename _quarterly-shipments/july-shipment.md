@@ -3,11 +3,11 @@ title: 1st Quarterly Shipment
 category: wine-club
 coupon: granitelionwineclub
 products:
-  - title: Viognier
-    year: '2014'
+  - title: Syrah
+    year: '2012'
     ava: south-coast
-    price: '22'
-    image_path: /images/wine/white/sauvignon-blanc.jpg
+    price: '36'
+    image_path: /images/wine/red/syrah.jpg
   - title: Cabernet Sauvignon
     year: '2013'
     ava: south-coast
@@ -18,11 +18,11 @@ products:
     ava: south-coast
     price: '36'
     image_path: /images/wine/red/cab-reserve.jpg
-  - title: Chardonnay
+  - title: Sangiovese
     year: '2012'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/lodi-chardonnay.jpg
+    image_path: /images/wine/red/sangiovese.jpg
   - title: Cabernet Sauvignon Reserve 375ML
     year: '2011'
     ava: south-coast
