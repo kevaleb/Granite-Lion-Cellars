@@ -8,26 +8,26 @@ products:
     ava: south-coast
     price: '22'
     image_path: /images/wine/white/sauvignon-blanc.jpg
-  - title: Rose
-    year: '2015'
+  - title: Cabernet Sauvignon
+    year: '2013'
     ava: south-coast
-    price: '24'
-    image_path: /images/wine/white/rose.jpg
-  - title: Melody Lane
-    year: '2015'
+    price: '36'
+    image_path: /images/wine/red/cab.jpg
+  - title: Cabernet Sauvignon Reserve
+    year: '2012'
     ava: south-coast
-    price: '20'
-    image_path: /images/wine/white/melody-lane.jpg
+    price: '36'
+    image_path: /images/wine/red/cab-reserve.jpg
   - title: Chardonnay
     year: '2012'
     ava: south-coast
     price: '0'
     image_path: /images/wine/white/lodi-chardonnay.jpg
-  - title: Sauvignon Blanc 375ML
-    year: '2014'
+  - title: Cabernet Sauvignon Reserve 375ML
+    year: '2011'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/sauvignon-blanc.jpg
+    image_path: /images/wine/red/cab-reserve.jpg
 ---
 
 
