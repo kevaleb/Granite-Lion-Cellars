@@ -3,31 +3,31 @@ title: 1st Quarterly Shipment
 category: wine-club
 coupon: granitelionwineclub
 products:
-  - title: Stony Oaks
-    year: '2012'
+  - title: Viognier
+    year: '2014'
     ava: south-coast
-    price: '28'
-    image_path: /images/wine/red/stoney-oaks.jpg
-  - title: Cabernet Sauvignon Reserve
-    year: '2012'
+    price: '22'
+    image_path: /images/wine/white/sauvignon-blanc.jpg
+  - title: Rose
+    year: '2015'
     ava: south-coast
-    price: '36'
-    image_path: /images/wine/red/cab-reserve.jpg
+    price: '24'
+    image_path: /images/wine/white/rose.jpg
   - title: Melody Lane
     year: '2015'
     ava: south-coast
     price: '20'
     image_path: /images/wine/white/melody-lane.jpg
-  - title: Rose
+  - title: Chardonnay
+    year: '2012'
+    ava: south-coast
+    price: '0'
+    image_path: /images/wine/white/lodi-chardonnay.jpg
+  - title: Sauvignon Blanc 375ML
     year: '2014'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/rose.jpg
-  - title: Chardonnay 375 ML
-    year: '2012'
-    ava: lodi
-    price: '0'
-    image_path: /images/wine/white/lodi-chardonnay.jpg
+    image_path: /images/wine/white/sauvignon-blanc.jpg
 ---
 
 
