@@ -1,7 +1,6 @@
 ---
-title: 4th Quarterly Shipment Mixed + Shipping
-category:
-  - wine-club
+title: 1st Quarterly Shipment
+category: wine-club
 coupon: granitelionwineclub
 products:
   - title: Stony Oaks
