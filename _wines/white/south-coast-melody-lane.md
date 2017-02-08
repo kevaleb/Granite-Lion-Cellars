@@ -9,10 +9,6 @@ color: white
 product-type: single
 image_path: /images/wine/white/melody-lane.jpg
 years:
-  - year: 2013
-    price: 18
-  - year: 2014
-    price: 18
   - year: 2015
     price: 20
 ---
