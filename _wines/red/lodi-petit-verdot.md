@@ -9,11 +9,7 @@ color: red
 product-type: single
 image_path: /images/wine/red/lodi-petit-verdot.jpg
 years:
-  - year: 2011
-    price: 32
   - year: 2012
-    price: 32
-  - year: 2013
     price: 32
 ---
 
