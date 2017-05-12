@@ -1,5 +1,5 @@
 ---
-title: 2nd Quarterly Shipment Mixed
+title: 2nd Quarterly Shipment Reds
 category: wine-club
 coupon: granitelionwineclub
 products:
@@ -18,16 +18,16 @@ products:
     ava: south-coast
     price: '40'
     image_path: /images/wine/red/cab-reserve.jpg
-  - title: Rose
-    year: '2014'
+  - title: Syrah
+    year: '2011'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/rose.jpg
-  - title: Chardonnay 375 ML
-    year: '2014'
+    image_path: /images/wine/red/syrah.jpg
+  - title: Cabernet Franc 375 ML
+    year: '2013'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/lodi-chardonnay.jpg
+    image_path: /images/wine/red/cab-franc.jpg
 ---
 
 
