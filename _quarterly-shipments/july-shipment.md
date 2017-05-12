@@ -1,33 +1,33 @@
 ---
-title: 2nd Quarterly Shipment Reds
+title: 2nd Quarterly Shipment Whites
 category: wine-club
 coupon: granitelionwineclub
 products:
-  - title: Petit Syrah
-    year: '2011'
+  - title: Rose
+    year: '2014'
+    ava: south-coast
+    price: '24'
+    image_path: /images/wine/white/rose.jpg
+  - title: Chardonnay
+    year: '2014'
+    ava: south-coast
+    price: '18'
+    image_path: /images/wine/white/chardonnay.jpg
+  - title: Sauvignon Blanc
+    year: '2014'
     ava: south-coast
     price: '36'
-    image_path: /images/wine/red/petite-sirah.jpg
-  - title: Stony Oaks
+    image_path: /images/wine/white/sauvignon-blanc.jpg
+  - title: Viognier
+    year: '2014'
+    ava: south-coast
+    price: '0'
+    image_path:
+  - title: Chardonnay 375
     year: '2012'
-    ava: south-coast
-    price: '28'
-    image_path: /images/wine/red/stoney-oaks.jpg
-  - title: Cabernet Sauvignon Reserve
-    year: '2013'
-    ava: south-coast
-    price: '40'
-    image_path: /images/wine/red/cab-reserve.jpg
-  - title: Syrah
-    year: '2011'
-    ava: south-coast
+    ava: lodi
     price: '0'
-    image_path: /images/wine/red/syrah.jpg
-  - title: Cabernet Franc 375 ML
-    year: '2013'
-    ava: south-coast
-    price: '0'
-    image_path: /images/wine/red/cab-franc.jpg
+    image_path: /images/wine/white/lodi-chardonnay.jpg
 ---
 
 
