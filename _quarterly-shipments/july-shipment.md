@@ -6,7 +6,7 @@ products:
   - title: Shipping
     year: '2017'
     ava: south-coast
-    price: '12'
+    price: '0'
     image_path:
 ---
 
