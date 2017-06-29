@@ -1,5 +1,5 @@
 ---
-title: 2nd Quarterly Shipment Whites
+title: 2nd Quarterly Shipment Shipping
 category: wine-club
 coupon: granitelionwineclub
 products:
