@@ -1,5 +1,5 @@
 ---
-title: 3rd Quarterly Shipment Mixed
+title: 3rd Quarterly Shipment Reds
 category: wine-club
 coupon: granitelionwineclub
 products:
@@ -13,21 +13,21 @@ products:
     ava: south-coast
     price: '28'
     image_path: /images/wine/red/stoney-oaks.jpg
-  - title: Chardonnay
-    year: '2014'
+  - title: Zinfandel
+    year: '2012'
     ava: south-coast
-    price: '18'
-    image_path: /images/wine/white/chardonnay.jpg
-  - title: Rose  375 ML
-    year: '2016'
-    ava: south-coast
-    price: '0'
-    image_path: /images/wine/white/rose.jpg
-  - title: Cabernet
+    price: '28'
+    image_path: /images/wine/red/zin.jpg
+  - title: Petit Syrah Res
     year: '2011'
-    ava: napa
+    ava: south-coast
     price: '0'
-    image_path: /images/wine/red/napa-cab-blend.jpg
+    image_path: /images/wine/red/petite-sirah-reserve.jpg
+  - title: Cabernet Sauvignon Reserve
+    year: '2011'
+    ava: south-coast
+    price: '0'
+    image_path: /images/wine/red/cab-reserve.jpg
 ---
 
 
