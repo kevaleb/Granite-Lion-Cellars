@@ -716,6 +716,114 @@ article > ul > li{
 /* @end */
 
 
+/* @group Mortgage Application */
+
+#club-application {
+	background: #f2f2f2;
+	border-top: 1px solid #ccc;
+}
+
+#club-application > hgroup {
+	padding: 24px 0 0 0;
+	text-align: center;
+}
+#club-application > hgroup > h2 {
+	display: inline-block;
+	margin: 0 0 24px 0;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+
+
+#club-application > form {
+	max-width: 320px;
+	margin: 0 auto 0px auto;
+	padding: 96px 0;
+}
+#club-application > form > h3 {
+	display: block;
+	margin: 9px 0 3px 0;
+	font: 600 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+	text-align: left;
+}
+#club-application > form > h4 {
+	margin: 0 0 6px 0;
+	font: 400 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #999;
+}
+#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]) {
+	width: 100%;
+	height: 48px;
+	margin: 0 0 12px 0;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #fff;
+	font: 400 16px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	outline: none;
+	
+}
+#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]):focus {
+	box-shadow: 0px 0px 0px 2px #1061ac;
+}
+#club-application > form > label {
+	display: inline-block;
+	margin: 0 12px 12px 0;
+	padding: 3px 6px;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	text-align: left;
+	color: #000;
+	
+}
+#club-application > form > label > span {
+	margin: 0 0 0 6px;
+	vertical-align: middle;
+	font: 400 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#club-application > form > .button {
+	margin: 24px 0 0 0;
+}
+
+
+
+#club-application > form > .co-borrower {
+	display: none;
+}
+#club-application > form.borrower-yes > .co-borrower {
+	display: block;
+}
+
+
+#club-application > form > .other_structure_type,
+#club-application > form > .pull_credit,
+#club-application > form > .manual_credit,
+#club-application > form > .credit_range,
+#club-application > form > .lo_explain {
+	display: none;
+}
+#club-application > form.other_structure_type > .other_structure_type,
+#club-application > form.pull_credit > .pull_credit,
+#club-application > form.manual_credit > .manual_credit,
+#club-application > form.credit_range > .credit_range,
+#club-application > form.lo_explain > .lo_explain {
+	display: block;
+}
+#club-application > form.credit_range > label.credit_range  {
+	display: inline-block;
+}
+
+
+#club-application > form > .manual_credit {
+	
+}
+
+/* @end */
 
 
 /* @group HOME PAGE */
