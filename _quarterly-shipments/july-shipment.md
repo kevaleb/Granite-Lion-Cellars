@@ -1,13 +1,33 @@
 ---
-title: 2nd Quarterly Shipment Shipping
+title: 3rd Quarterly Shipment Reds
 category: wine-club
 coupon: granitelionwineclub
 products:
-  - title: Shipping
-    year: '2017'
+  - title: Cabernet Sauvignon Res
+    year: '2012'
+    ava: south-coast
+    price: '36'
+    image_path: /images/wine/red/cab-reserve.jpg
+  - title: Stony Oaks
+    year: '2012'
+    ava: south-coast
+    price: '28'
+    image_path: /images/wine/red/stoney-oaks.jpg
+  - title: Zinfandel
+    year: '2012'
+    ava: south-coast
+    price: '28'
+    image_path: /images/wine/red/zin.jpg
+  - title: Petit Syrah Res
+    year: '2011'
     ava: south-coast
     price: '0'
-    image_path:
+    image_path: /images/wine/red/petite-sirah-reserve.jpg
+  - title: Cabernet Sauvignon Reserve
+    year: '2011'
+    ava: south-coast
+    price: '0'
+    image_path: /images/wine/red/cab-reserve.jpg
 ---
 
 
