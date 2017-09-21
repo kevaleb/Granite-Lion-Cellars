@@ -1,16 +1,16 @@
 ---
-layout: wine
-title: south coast pinot gris
-permalink: wine/pinot-gris/
-winename: pinot gris
-varietal: pinot gris
-ava: south-coast
-color: white
-product-type: single
-image_path: /images/wine/white/pinot-gris.jpg
+layout: none
+title:
+permalink:
+winename:
+varietal:
+ava:
+color:
+product-type:
+image_path:
 years:
-  - year: 2013
-    price: 26
+  - year:
+    price:
 ---
 
 
