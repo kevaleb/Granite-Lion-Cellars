@@ -1,16 +1,16 @@
 ---
-layout: wine
-title: Lodi Tannat
-permalink: wine/lodi-tannat/
-winename: tannat
-varietal: tannat
-ava: lodi
-color: red
-product-type: single
-image_path: /images/wine/red/lodi-tannat.jpg
+layout: none
+title:
+permalink:
+winename:
+varietal:
+ava:
+color:
+product-type:
+image_path:
 years:
-  - year: 2012
-    price: 28
+  - year:
+    price:
 ---
 
 
