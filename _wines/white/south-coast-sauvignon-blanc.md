@@ -11,6 +11,8 @@ image_path: /images/wine/white/sauvignon-blanc.jpg
 years:
   - year: 2014
     price: 28
+  - year: '2016'
+    price: '28'
 ---
 
 
