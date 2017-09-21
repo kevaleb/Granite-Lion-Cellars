@@ -13,6 +13,8 @@ years:
     price: 36
   - year: 2013
     price: 36
+  - year: '2014'
+    price: '36'
 ---
 
 
