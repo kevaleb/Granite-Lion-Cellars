@@ -6,7 +6,7 @@ winename: 'flirty, not sweet afternoon collection'
 product-type: collection
 image_path: /images/wine/collections/afternoon/001.jpg
 years:
-  - year: 2016
+  - year:
     price: 65
 ---
 
