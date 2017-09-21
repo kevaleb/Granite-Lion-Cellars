@@ -9,8 +9,8 @@ color: red
 product-type: single
 image_path: /images/wine/red/napa-merlot.jpg
 years:
-  - year: 2012
-    price: 24
+  - year: 2014
+    price: 36
 ---
 
 
