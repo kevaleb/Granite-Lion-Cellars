@@ -11,4 +11,4 @@ years:
 ---
 
 
-The Granite Lion Cellars collection of white wines is an irresistible invitation to relax and refresh. Distinctive and unique, it is a companion for a celebration of friends or a time for quiet reflection and pleasure. <br><br>This collection comes in 750 ML bottles<br>1 - 2013 South Coast Pinot Gris<br>1 - 2013 South Coast Rose’<br>1 - 2013 South Coast Melody Lane
+The Granite Lion Cellars collection of white wines is an irresistible invitation to relax and refresh. Distinctive and unique, it is a companion for a celebration of friends or a time for quiet reflection and pleasure.&nbsp;<br><br>This collection comes in 750 ML bottles<br>1 - available year - South Coast Pinot Gris<br>1 - available year - South Coast Rose’<br>1 - available year - South Coast Melody Lane
