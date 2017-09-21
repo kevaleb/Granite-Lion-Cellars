@@ -9,8 +9,8 @@ color: red
 product-type: single
 image_path: /images/wine/red/merlot.jpg
 years:
-  - year: 2013
-    price: 30
+  - year: 2014
+    price: 36
 ---
 
 
