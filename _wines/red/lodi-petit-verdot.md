@@ -1,16 +1,16 @@
 ---
-layout: wine
-title: Lodi Petit Verdot
-permalink: wine/lodi-petit-verdot/
-winename: petit verdot
-varietal: petit verdot
-ava: lodi
-color: red
-product-type: single
-image_path: /images/wine/red/lodi-petit-verdot.jpg
+layout: none
+title:
+permalink:
+winename:
+varietal:
+ava:
+color:
+product-type:
+image_path:
 years:
-  - year: 2012
-    price: 32
+  - year:
+    price:
 ---
 
 
