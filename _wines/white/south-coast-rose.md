@@ -9,10 +9,10 @@ color: white
 product-type: single
 image_path: /images/wine/white/rose.jpg
 years:
-  - year: 2014
-    price: 24
   - year: 2015
-    price: 24
+    price: 28
+  - year: '2016'
+    price: '29'
 ---
 
 
