@@ -1,5 +1,5 @@
 ---
-title: 3rd Quarterly Shipment Reds
+title: Sam Zitting
 category: wine-club
 coupon: granitelionwineclub
 products:
