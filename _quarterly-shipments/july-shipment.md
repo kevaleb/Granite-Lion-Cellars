@@ -1,7 +1,7 @@
 ---
 title: Sam Zitting
 category: wine-club
-coupon:
+coupon: granitelionwineclub
 products:
   - title: Napa Valley Cab Sauvignon 1.5L
     year: '2011'
