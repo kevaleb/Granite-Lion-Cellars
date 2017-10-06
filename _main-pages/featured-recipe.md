@@ -10,7 +10,7 @@ image_path: /images/backgrounds/vineyard-old.jpg
 ---
 
 
-## Port Wine Braised Beef Short Ribs
+### *Pairing: Port Wine Braised Beef Short Ribs with Granite Lion Cellars Cabernet Sauvignon.*
 
 ![](/uploads/versions/nine-ten-port-wine-braised-beef-short-ribs---x----2256-1500x---.jpg)<br>***Recipe courtesy Jason Knibb, chef, Nine-Ten Restaurant and Bar, San Diego<br>Serves Six (6)***<br>3½–4 pounds boneless beef short ribs<br>Pinch of salt<br>Pinch of pepper<br>1 cup diced onion<br>1 cup diced carrots<br>½ cup diced celery<br>2 cloves garlic, diced<br>½ bunch thyme<br>1 bay leaf<br>1 bottle red wine<br>2 cups ruby Port<br>4 cups veal or chicken stock
 
