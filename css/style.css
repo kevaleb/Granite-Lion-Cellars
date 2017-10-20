@@ -391,7 +391,6 @@ blockquote > p:after {
 	margin: 0 -.25em 0 0;
 	padding: 2%;
 	vertical-align: middle;
-	text-align: Left;
 }
 .section-header > section > h1 {
 	display: block;
@@ -400,6 +399,21 @@ blockquote > p:after {
 	color: #fff;
 	text-shadow: 0 1px 5px rgba(0,0,0,.75);
 	text-align: center;
+}
+.section-header > h1 {
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 -.25em 0 0;
+	padding: 2%;
+	font: 60px/84px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	text-shadow: 0 1px 5px rgba(0,0,0,.75);
+	vertical-align: middle;
+	text-align: Left;
 }
 .section-header > section > h2 {
 	font: 200 24px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -431,25 +445,46 @@ blockquote > p:after {
 
 
 
-.section-header > h1 {
-	-webkit-box-sizing: border-box;
-	display: inline-block;
-	position: relative;
-	z-index: 100;
+
+
+
+
+
+
+@media all and (max-width: 720px) {
+.section-header {
+	height: auto!important;
+	min-height: 30%;
+	padding: 48px;
+}	
+.section-header::after {
+	content: '\00a0';
+	position: absolute;
+	left: 0;
+	top: 0;
 	width: 100%;
-	max-width: 1080px;
-	margin: 0 -.25em 0 0;
-	padding: 2%;
-	font: 60px/84px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #fff;
-	text-shadow: 0 1px 5px rgba(0,0,0,.75);
-	vertical-align: middle;
-	text-align: Left;
+	height: 100%;
+	background: rgba(0,0,0,.5);
 }
-.section-header h1 > .button {
-	/*display: block;*/
-	vertical-align: middle;
-	margin: 0 0 0 24px;
+.section-header > h1 {
+	position: relative;
+	z-index: 10000000000000000000;
+	font-size: 24px;
+	line-height: 72px;
+	text-align: center;
+	/*opacity: 1;*/
+}
+
+.home-page > .section-header.main > section > h1 {
+	font-size: 32px;
+	line-height: 42px;
+	margin: 0 0 24px 0;
+}
+.home-page > .section-header.main > section > h1 > span {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 12px 0 0 0;
+}
 }
 
 /* @end */
@@ -457,7 +492,7 @@ blockquote > p:after {
 /* @group BANNER */
 .banner {
 	position: relative;
-	height: 60%;
+	height: 100%;
 	min-height: 320px;
 	/*padding: 72px 0 0 0;*/
 	background-attachment: fixed;
@@ -467,84 +502,57 @@ blockquote > p:after {
 	text-align: center;
 	white-space: nowrap;
 	background-color: #000;
+	overflow: hidden;
 }
-.banner.tall {
-	height: 80%;
-}
-.banner.full {
+.banner:before {
+	content: '';
+	display: inline-block;
+	width: 0px;
 	height: 100%;
+	margin: 0 -.25em 0 0;
+	vertical-align: middle;
 }
-/*.banner:before {
+.banner:after {
 	content: '\00a0';
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: -webkit-radial-gradient(circle, rgba(0, 0, 0, .5) 0%, rgba(0,0,0,.75) 100%);
-	background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%);
-}*/
-.banner.light:before {
-	background-image: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,.15) 100%);
-	background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,.15) 100%);
-}
-.banner.contrast:before {
-	background-image: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0.63) 0%, rgba(0,0,0,1) 100%);
-	background-image: radial-gradient(circle, rgba(0, 0, 0, 0.63) 0%, rgba(0,0,0,1) 100%);
-}
-.banner.video:before {
-	/*background-image: radial-gradient(circle, rgba(0, 0, 0, .5) 69%, rgba(0,0,0,1) 70%);*/
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 63.6%, rgba(0,0,0,1) 100%);
-	background-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 63.6%, rgba(0,0,0,1) 100%);
-}
-.banner:after {
-	content: '\00a0';
-	display: inline-block;
-	width: 0;
-	height: 100%;
-	vertical-align: middle;
+	background-image: rgba(0,0,0,.25);
+	background-image: radial-gradient(farthest-corner, rgba(0,0,0,.25) 0%, rgba(0,0,0,.85) 100%);
+	box-shadow: 0 -6px 8px -5px rgba(0,0,0,1)inset;
 }
 
 
-
-
-
-
-/* @group HGROUP */
 .banner > hgroup {
+	display: inline-block;
 	position: relative;
 	z-index: 1000;
-	display: inline-block;
-	width: 50%;
-	max-width: 540px;
-	margin: 0 -.25em;
+	max-width: 1080px;
+	margin: 0 -.25em 0 0;
 	vertical-align: middle;
-	text-align: left;
 	white-space: normal;
 }
-.banner hgroup.center {
-	text-align: center;
-	width: 100%;
-	max-width: 1080px;
-}
 .banner > hgroup > h1 {
-	font: 500 36px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	letter-spacing: 2px;
-	text-shadow: 0 1px 6px rgba(0,0,0,.5);
-	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	font: 900 36px/48px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #fff;
+	text-shadow: 0 1px 6px rgba(0,0,0,.5);
+	/*text-shadow: 0 1px 5px rgba(0,0,0,.75);*/
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0px;
 }
-.banner > hgroup > h1.large {
-	font-size: 48px;
-	font-weight: 60px;
-}
-.banner > hgroup > h1.thin {
+.banner > hgroup > h1 > span {
+	display: block;
+	font-size: 24px;
 	font-weight: 200;
+	letter-spacing: 1px;
 }
-
-.banner > hgroup > img {
-	width: 100%;
-	max-width: 320px;
+.banner > hgroup > h1 > strong {
+	display: block;
 }
 .banner > hgroup > h2 {
 	font: 100 24px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -554,99 +562,62 @@ blockquote > p:after {
 	color: #fff;
 }
 
-
-
-
-
-/* @group Winery Title */
-.banner > hgroup > h1.winery-title {
-	font: 900 48px/54px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.banner > .banner-bottom {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	left: 0;
+	bottom: -1px;
+	height: auto;
 }
-.banner > hgroup.full > h1.winery-title > span {
-	display: block;
-	font: 100 41px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	text-transform: capitalize;
-}
-/* @end */
 
 
+@media all and (max-width: 720px) {
 
-/* @group Author */
-.banner > hgroup > .author {
-	padding: 48px 0 0 0;
-}
-.banner > hgroup > .author > .image {
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
-	/*border: 1px solid rgba(255,255,255,0);*/
-	/*box-shadow: 0 0 0px 1px #fff inset;*/
-	border-radius: 72px;
-	background-size: cover;
+.banner {
 	background-position: center;
 }
-.banner > hgroup > .author > p {
-	color: #fff;
-	font-size: 10px;
-	font-weight: 400;
-	letter-spacing: 1px;
-	font-style: italic;
+.banner > hgroup > h1 {
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0px;
+}	
+.banner > hgroup > h1 > span {
+	font-size: 18px;
+	letter-spacing: 0;
 }
-.banner > hgroup > .author > p:before {
-	content: 'by ';
-	font-weight: 100;
-}
-/* @end */
 
-/* @end */
+}
 
-/* @group HGROUP FULL */
-.banner > hgroup.full {
-	width: 100%;
-	max-width: 800px;
-	text-align: center;
-}
-/* @end */
-
-/* @group HGROUP PARTIAL */
-.banner > hgroup.partial{
-	width: 100%;
-	max-width: 960px;
-	text-align: center;
-}
-/* @end */
-
-/* @group HGROUP LEFT */
-.banner > hgroup.left {
-	width: 100%;
-	max-width: 1080px;
-	text-align: left;
-}
-.banner > hgroup.left > h1 {
-	width: 50%;
-}
 /* @end */
 
 
 
 
+/* @group BG VID */
 
+video { display: block; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+video#bgvid { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
 
 /* @end */
+
+
 
 
 /* @group Article */
@@ -880,8 +851,6 @@ article blockquote {
 .home-page {
 	
 }
-
-
 
 
 .awards {
@@ -2269,7 +2238,7 @@ display: none;
 .subscribe {
 	text-align: center;
 	padding: 48px 24px;
-	background: #f2f2f2;
+	background: #fff;
 	/*border-bottom: 1px solid #ccc;*/
 }
 .subscribe > h2 {
@@ -2778,14 +2747,6 @@ display: none;
 	border-radius: 0 0 3px 3px;
 	opacity: 1;
 }	
-
-.section-header {
-	padding-top: 0;
-}
-.section-header > .banneralert {
-	top: 0;
-}
-
 .footer > section > p {
 	float: none;
 }
@@ -2907,42 +2868,6 @@ display: none;
 @media all and (max-width: 540px) {
 .content > section{
 	padding: 60px 36px;
-}
-
-
-.section-header {
-	height: auto!important;
-	min-height: 30%;
-	padding: 48px;
-}	
-.section-header::after {
-	content: '\00a0';
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,.5);
-}
-.section-header > h1 {
-	position: relative;
-	z-index: 10000000000000000000;
-	font-size: 42px;
-	line-height: 72px;
-	text-align: center;
-	opacity: 1;
-}
-
-
-.home-page > .section-header.main > section > h1 {
-	font-size: 32px;
-	line-height: 42px;
-	margin: 0 0 24px 0;
-}
-.home-page > .section-header.main > section > h1 > span {
-	font-size: 16px;
-	line-height: 24px;
-	margin: 12px 0 0 0;
 }
 
 

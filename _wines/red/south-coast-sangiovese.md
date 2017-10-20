@@ -10,9 +10,11 @@ product-type: single
 image_path: /images/wine/red/sangiovese.jpg
 years:
   - year: 2012
-    price: 24
+    price: 26
   - year: 2013
-    price: 24
+    price: 28
+  - year: '2014'
+    price: '32'
 ---
 
 

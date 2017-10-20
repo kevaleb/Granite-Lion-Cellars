@@ -9,10 +9,10 @@ color: red
 product-type: single
 image_path: /images/wine/red/cab.jpg
 years:
-  - year: 2012
-    price: 36
   - year: 2013
     price: 36
+  - year: '2014'
+    price: '36'
 ---
 
 
