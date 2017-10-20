@@ -1,5 +1,7 @@
 ---
 headline: This is a test title
-category:
+category: recipes
 image_path:
 ---
+
+
