@@ -1,5 +1,5 @@
 ---
-title: 4th Quarterly Wine Shipments Reds
+title: 4th Quarterly Wine Shipments Mixed
 category:
 coupon: granitelionwineclub
 products:
@@ -13,21 +13,21 @@ products:
     ava: south-coast
     price: '36'
     image_path: /images/wine/red/cab.jpg
-  - title: Stony Oaks
-    year: '2014'
+  - title: Viognier
+    year: '2016'
     ava: south-coast
-    price: '30'
-    image_path: /images/wine/red/stoney-oaks.jpg
+    price: '22'
+    image_path: /images/wine/white/sauvignon-blanc.jpg
   - title: Syrah 375 ML
-    year: '2013'
+    year: '2014'
     ava: south-coast
     price: '0'
     image_path: /images/wine/red/syrah.jpg
-  - title: Zinfandel 375 ML
-    year: '2013'
+  - title: Chardonnay
+    year: '2016'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/red/zin.jpg
+    image_path: /images/wine/white/chardonnay.jpg
 ---
 
 
