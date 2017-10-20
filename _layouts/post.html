@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="section-header dark" style="background-image: url({{ page.image_path }});">
+	<section>
+		{% unless page.headline == nil %}
+		<h1>{{ page.headline }}</h1>
+		{% endunless %}
+		
+		{% unless page.sub_head == nil %}
+		<h2>{{ page.sub_head }}</h2>
+		{% endunless %}
+		
+		<section class="post-info">
+			<span>Posted in <strong>{{ page.category }}</strong> on <strong>{{ page.date | date:" %b %d, %Y" }}</strong> <strong>{{ page.author | downcase | replace:'-',' ' }}</strong></span>
+		</section>
+	</section>	
+		
+</div>
+
+<article>
+	
+	
+	
+	
+	{{ content }}
+</article>

@@ -12,3 +12,17 @@ collections:
   product-types:
     output: true
   quarterly-shipments:
+  categories:
+    output: true
+
+  
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      _hide_content: false
+      permalink: /blog/:title/
+      navclass: /blog/

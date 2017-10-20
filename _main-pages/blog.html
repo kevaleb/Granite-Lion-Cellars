@@ -1,0 +1,39 @@
+---
+layout: default
+title: San Diego Wine | Granite Lion Cellars
+description: We produce vintage wine right here in san diego.
+permalink: /blog/
+navclass: blog
+navtitle: blog
+navorder: 6
+image_path: /images/backgrounds/vineyard-old.jpg
+---
+<div class="section-header dark" style="background-image: url({{ page.image_path }});">
+	<section>
+		<h1>Blog</h1>
+	</section>		
+</div>
+
+
+<div class="posts">
+	<ul>
+		{% assign filtered_posts = site.posts %}
+		{% for post in filtered_posts %}
+			<li>
+				<div class="image" style="background-image: url('{{ post.image_path }}');"></div>
+				<h1>{{ post.headline }}</h1>
+				
+				<section class="post-info">
+					<span>Posted in <strong>{{ post.category }}</strong> on <strong>{{ post.date | date:" %b %d, %Y" }}</strong></span>
+				</section>
+				<article>
+					{{ post.excerpt }}
+				</article>
+				<a href="{{ post.url }}" class="button border">Read More</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+
+
+

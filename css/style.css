@@ -1,4 +1,7 @@
 /* @override http://0.0.0.0:4000/css/style.css */
+
+/* @group General */
+
 * {
 	-webkit-box-sizing: border-box;
 	outline: none;
@@ -11,9 +14,73 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-a {
-	
+
+h1 {
+	font: 60px/84px 'Gilda Display',Lustria,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	text-transform: uppercase;
+	color: #111;
 }
+h2 {
+	font: 500 18px/24px Georgia, "Times New Roman", Times, serif;
+	text-transform: capitalize;
+	color: #555;
+	word-spacing: 0;
+	letter-spacing: 0px;
+}
+h3 {
+	font: 500 16px/24px Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+h4 {
+	font: 500 15px/24px Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+h5 {
+	font: 400 14px/24px Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+h6 {
+	font: 300 13px/24px Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+
+p,
+ul,
+ol,
+a,
+blockquote {
+	font: 300 17px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #555;
+}
+p > em {
+	/*font-weight: 500;*/
+}
+
+ul,ol {
+	padding: 0 0 0 24px;
+}
+ul > li,ol > li {
+	text-align: left;
+}
+ul > li:last-of-type,
+ol > li:last-of-type {
+	margin: 0;
+}
+
+blockquote > p:before,
+blockquote > p:after {
+	content: '"';
+}
+
+
+
+/* @end */
+
+
+
+
+/* @group Buttons */
+
 .button {
 	display: inline-block;
 	margin: 12px 0 0 0;
@@ -33,7 +100,7 @@ a {
 	cursor: pointer;
 }
 
-
+/* @end */
 
 
 
@@ -328,10 +395,11 @@ a {
 }
 .section-header > section > h1 {
 	display: block;
-	margin: 0 0 24px 0;
+	margin: 0;
 	font: 60px/84px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #fff;
 	text-shadow: 0 1px 5px rgba(0,0,0,.75);
+	text-align: center;
 }
 .section-header > section > h2 {
 	font: 200 24px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -583,78 +651,74 @@ a {
 
 /* @group Article */
 article {
-	max-width: 1080px;
+	max-width: 720px;
 	margin: 0 auto;
-	padding: 96px 0;
+	padding: 48px 0px;
+	text-align: left;
 }
-
-
-article > hgroup {
-	margin: 72px 0 48px 0;
+article > * {
+	margin:0 0 24px 0;
+}
+article > blockquote,
+article > p > em {
+	display: block;
 	text-align: center;
 }
-article > h1 {
-	margin: 36px 0;
+article > :first-child {
+	margin-top: 0;
 }
-article > h2 {
-	margin: 36px 0;
-}
-article > p+h3  {
-	margin: 72px 0 0 0;
+article > :last-child {
+	margin-bottom: 0;
 }
 
-
-article > blockquote > p {
-	margin: 48px 0;
-	text-align: center;
-	font: 400 24px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	letter-spacing: 1px;
-	color: #b23636;
-	color: #444;
-}
-/*article > blockquote > p:before,
-article > blockquote > p:after {
-	content: '"';
-}*/
-
-article p {
-	margin: 0 0 36px 0;
-	font-size: 20px;
-	overflow: hidden;
-	letter-spacing: 1px;
-}
-article p > img {
+article img {
 	width: 100%;
-	/*margin: -36px 0 0 0;*/
+	margin-bottom: 24px;
 }
-article > h3+p {
-	margin: 0 0 36px 0;
-}
-article > p:first-of-type:first-letter { 
-	float: left; 
-	color: #b6ac67; 
-	font-size: 120px; 
-	line-height: 96px; 
-	vertical-align: top;
-	padding-top: 12px; 
-	padding-right: 24px; 
-	padding-left: 3px; 
-	font-family: Georgia; 
-}
-article > hr {
-	height: 48px;
-	border: none;
-	border-top: 1px dotted #ccc;
+article blockquote {
+	padding: 24px 0;
 }
 
 
-article > ul {
-	padding: 0 0 0 24px;
+
+@media all and (max-width: 960px) {
+
+	article {
+		padding: 48px;
+		column-count: 1;
+	}
+
 }
-article > ul > li{
-	margin: 36px 0;
-	/*padding: 50px;*/
-	font-size: 20px;
+
+@media all and (max-width: 720px) {
+
+	article {
+		padding: 0 24px;
+		column-count: 1;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	article {
+		padding: 0 0 48px 0;
+	}
+	article h1,
+	article h2,
+	article h3,
+	article h4,
+	article h5,
+	article h6,
+	article p,
+	article ul {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	article ul,
+	article ol {
+		padding-left: 60px;
+	}
 }
 /* @end */
 
@@ -662,184 +726,161 @@ article > ul > li{
 
 
 
-/* @group Blog Posts */
-.blogposts {
+/* @group posts */
+
+.posts {
+	padding: 5% 0;
+	text-align: center;
+}
+.posts > ul {
+	display: block;
 	max-width: 1080px;
 	margin: 0 auto;
-	padding: 96px 0px;
 	list-style: none;
-	text-align: left;
+	padding: 0;
 }
-.blogposts > li {
+.posts > ul > li {
 	display: inline-block;
-	width: 48%;
-	margin: 0 -.25em 4% 0;
-	background: #fff;
-	border: 1px solid #ccc;
-	border-top: none;
-	vertical-align: top;
-}
-.blogposts > li:nth-last-of-type(even) {
-	margin-left: 4%;
-}
-.blogposts > li > a {
-	display: block;
-	padding: 24px;
+	max-width: 320px;
+	margin: 0 12px 84px 12px;
+	padding: 0 0 84px 0;
+	text-align: center;
 	text-decoration: none;
+	/*border-bottom: 1px solid #ccc;*/
 }
-.blogposts > li > a > .postbanner {
-	height: 150px;
-	margin: -24px -24px 24px -24px;
-	background-color: #000;
+.posts > ul > li > .image {
+	height: 240px;
+	margin: 0 0 24px 0;
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 }
-.blogposts > li > a > h2 {
-	margin: 0 0 12px;
-	font: 900 18px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #d64336;
+.posts > ul > li > h1 {
+	box-shadow: none;
+	color: #333;
+	font: 900 24px/30px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
-.blogposts > li > a > h3 {
-	font: 400 11px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #999;
-	font-style: italic;
-}
-.blogposts > li > a > p {
-	height: 96px;
+.posts > ul > li > section {
+	margin: 6px 0 24px 0;
 	padding: 0;
+	color: #b6ac67;
+	
+}
+.posts > ul > li > section > span {
+	font: 300 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.posts > ul > li > article {
+	height: 120px;
 	overflow: hidden;
-	font: 14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #666;
-	text-overflow: ellipsis;
-}
-/* @end */
-
-
-/* @group Mortgage Application */
-
-#club-application {
-	background: #f2f2f2;
-	border-top: 1px solid #ccc;
-}
-
-#club-application > hgroup {
-	padding: 24px 0 0 0;
+	padding: 0 24px;
 	text-align: center;
 }
-#club-application > hgroup > h2 {
-	display: inline-block;
-	margin: 0 0 24px 0;
-	font-size: 18px;
-	line-height: 24px;
-}
-
-
-
-
-#club-application > form {
-	max-width: 320px;
-	margin: 0 auto 0px auto;
-	padding: 96px 0;
-}
-#club-application > form > h3 {
-	display: block;
-	margin: 9px 0 3px 0;
-	font: 600 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #666;
-	text-align: left;
-}
-#club-application > form > h4 {
-	margin: 0 0 6px 0;
-	font: 400 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #999;
-}
-#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]) {
-	width: 100%;
-	height: 48px;
-	margin: 0 0 12px 0;
-	padding: 6px 12px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	background-color: #fff;
-	font: 400 16px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	outline: none;
-	
-}
-#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]):focus {
-	box-shadow: 0px 0px 0px 2px #1061ac;
-}
-#club-application > form > label {
-	display: inline-block;
-	margin: 0 12px 12px 0;
-	padding: 3px 6px;
-	background: #f2f2f2;
-	border: 1px solid #ccc;
-	border-radius: 24px;
-	text-align: left;
-	color: #000;
-	
-}
-#club-application > form > label > span {
-	margin: 0 0 0 6px;
-	vertical-align: middle;
-	font: 400 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
-
-#club-application > form > .button {
+.posts > ul > li > .button {
 	margin: 24px 0 0 0;
 }
 
 
-
-#club-application > form > .co-borrower {
-	display: none;
-}
-#club-application > form.borrower-yes > .co-borrower {
-	display: block;
-}
-
-
-#club-application > form > .other_structure_type,
-#club-application > form > .pull_credit,
-#club-application > form > .manual_credit,
-#club-application > form > .credit_range,
-#club-application > form > .lo_explain {
-	display: none;
-}
-#club-application > form.other_structure_type > .other_structure_type,
-#club-application > form.pull_credit > .pull_credit,
-#club-application > form.manual_credit > .manual_credit,
-#club-application > form.credit_range > .credit_range,
-#club-application > form.lo_explain > .lo_explain {
-	display: block;
-}
-#club-application > form.credit_range > label.credit_range  {
-	display: inline-block;
-}
-
-
-#club-application > form > .manual_credit {
-	
+@media all and (max-width: 720px) {
+	.posts > ul {
+		margin: 0;
+		padding: 24px;
+	}
 }
 
 /* @end */
+
+/* @group Post Info */
+
+.post-info {
+	margin: 6px 0 24px 0;
+	padding: 0;
+	color: #b6ac67;
+	text-align: center;
+}
+.post-info {
+	font: 300 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+/* @end */
+/* @group simple-posts */
+
+.simple-posts {
+	
+}
+.simple-posts > ul {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 24px;
+}
+.simple-posts > ul > li {
+	display: inline-block;
+	width: 30%;
+	padding: 24px;
+	vertical-align: top;
+}
+.simple-posts > ul > li > a {
+	text-decoration: none;
+}
+.simple-posts > ul > li > a > h5 {
+	display: inline-block;
+	height: 96px;
+	overflow: hidden;
+	margin: 0 0 24px 0;
+	padding: 0 0 24px 0;
+	font: 500 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #333;
+}
+.simple-posts > ul > li > a:hover > h5 {
+	color: #d9aa1e;
+}
+.simple-posts > ul > li > a > div{
+	overflow: hidden;
+	height: 96px;
+	font: 200 16px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.simple-posts > ul > li > a > span {
+	display: inline-block;
+	margin: 6px 0;
+	padding: 6px 12px ;
+	border: 1px solid #333;
+	border-radius: 96px;
+	font: 200 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.simple-posts > ul > li > a > span:hover,
+.simple-posts > ul > li > a:hover > span {
+	background: #d9aa1e;
+	border-color: #d9aa1e;
+	color: #fff;
+}
+
+
+@media all and (max-width: 720px){
+	
+	.simple-posts > ul > li {
+		display: block;
+		width: 100%;
+	}
+	
+}
+
+
+/* @end */
+
+
 
 
 /* @group HOME PAGE */
 .home-page {
 	
 }
-.home-page > .section-header.main {
-	height: 72%;
-	background-image: url("/images/home-wine.jpg");
-}
-.home-page > .section-header.wine-tasting {
-	/*background-image: url("/images/backgrounds/wine-tasting.jpg");*/
-}
-.home-page > .section-header:nth-last-of-type(odd) > h1 {
-	/*text-align: right;*/
-}
+
 
 
 
@@ -1131,6 +1172,7 @@ article > ul > li{
 .club > .section-header > section > ul > li > p {
 	display: block;
 	vertical-align: middle;
+	color: #fff;
 }
 .club > .section-header > section > ul > li > p > strong {
 	display: block;
@@ -1378,6 +1420,117 @@ display: none;
 }
 
 /* @end */
+
+
+/* @group Club Application */
+
+#club-application {
+	background: #f2f2f2;
+	border-top: 1px solid #ccc;
+}
+
+#club-application > hgroup {
+	padding: 24px 0 0 0;
+	text-align: center;
+}
+#club-application > hgroup > h2 {
+	display: inline-block;
+	margin: 0 0 24px 0;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+
+
+#club-application > form {
+	max-width: 320px;
+	margin: 0 auto 0px auto;
+	padding: 96px 0;
+}
+#club-application > form > h3 {
+	display: block;
+	margin: 9px 0 3px 0;
+	font: 600 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+	text-align: left;
+}
+#club-application > form > h4 {
+	margin: 0 0 6px 0;
+	font: 400 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #999;
+}
+#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]) {
+	width: 100%;
+	height: 48px;
+	margin: 0 0 12px 0;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #fff;
+	font: 400 16px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	outline: none;
+	
+}
+#club-application > form > input:not([type=submit]):not([type=file]):not([type=radio]):focus {
+	box-shadow: 0px 0px 0px 2px #1061ac;
+}
+#club-application > form > label {
+	display: inline-block;
+	margin: 0 12px 12px 0;
+	padding: 3px 6px;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	text-align: left;
+	color: #000;
+	
+}
+#club-application > form > label > span {
+	margin: 0 0 0 6px;
+	vertical-align: middle;
+	font: 400 14px/16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#club-application > form > .button {
+	margin: 24px 0 0 0;
+}
+
+
+
+#club-application > form > .co-borrower {
+	display: none;
+}
+#club-application > form.borrower-yes > .co-borrower {
+	display: block;
+}
+
+
+#club-application > form > .other_structure_type,
+#club-application > form > .pull_credit,
+#club-application > form > .manual_credit,
+#club-application > form > .credit_range,
+#club-application > form > .lo_explain {
+	display: none;
+}
+#club-application > form.other_structure_type > .other_structure_type,
+#club-application > form.pull_credit > .pull_credit,
+#club-application > form.manual_credit > .manual_credit,
+#club-application > form.credit_range > .credit_range,
+#club-application > form.lo_explain > .lo_explain {
+	display: block;
+}
+#club-application > form.credit_range > label.credit_range  {
+	display: inline-block;
+}
+
+
+#club-application > form > .manual_credit {
+	
+}
+
+/* @end */
+
 
 /* @group INVITATION DETAILS */
 .invitation-details {
@@ -2044,6 +2197,53 @@ display: none;
 
 /* @end */
 
+
+
+
+
+
+/* @group Tasting Room */
+
+.tasting-room {
+	
+}
+.tasting-room > .hours {
+	max-width: 480px;
+	margin: 0px auto 48px auto;
+	padding: 0;
+	text-align: center;
+	border: none;
+}
+.tasting-room > .hours > h3 {
+	margin: 0;
+	padding: 24px;	
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.tasting-room > .hours > h4 {
+	display: inline-block;
+	font: 200 18px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	padding: 12px;
+}
+.tasting-room > .hours > h5 {
+	padding: 12px;
+	font: 400 24px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 1px;
+}
+.tasting-room > .hours > h6 {
+	font: 200 16px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* @end */
+
+
+
+
+
+
 /* @group Hours */
 
 .hours {
@@ -2062,6 +2262,65 @@ display: none;
 /* @end */
 
 
+
+
+/* @group subscribe */
+
+.subscribe {
+	text-align: center;
+	padding: 48px 24px;
+	background: #f2f2f2;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.subscribe > h2 {
+	font: 400 20px/30px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0 0 24px 0;
+	color: #333;
+	letter-spacing: 2px;
+}
+.subscribe > h2 > strong {
+	display: block;
+	font-weight: 900;
+	font-size: 30px;
+	letter-spacing: 0;
+}
+.subscribe > label {
+	display: inline-block;
+	margin: 0 0 6px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}
+.subscribe > label > span {
+	display: inline-block;
+	width: 50px;
+	padding: 0 6px;
+	font: 900 10px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #666;
+}
+.subscribe > label > input {
+	width: 250px;
+	border: none;
+	font: 400 12px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+}
+
+
+@media all and (max-width: 540px) {
+
+.subscribe > h2 {
+	font: 400 12px/30px 'Gilda Display',Lustria,"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 1px;
+}
+.subscribe > h2 > strong {
+	font-weight: 900;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+}
+/* @end */
 
 
 
@@ -2553,9 +2812,6 @@ display: none;
 }
 
 
-.contact-us {
-	padding: 48px;
-}
 	
 }
 
