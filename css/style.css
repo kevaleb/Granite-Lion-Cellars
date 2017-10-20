@@ -512,7 +512,7 @@ blockquote > p:after {
 	margin: 0 -.25em 0 0;
 	vertical-align: middle;
 }
-.banner:after {
+.banner.dark:after {
 	content: '\00a0';
 	position: absolute;
 	left: 0;
