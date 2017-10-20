@@ -1,33 +1,33 @@
 ---
-title: 4th Quarterly Wine Shipments Mixed
+title: 4th Quarterly Wine Shipments Whites
 category:
 coupon: granitelionwineclub
 products:
-  - title: Merlot
+  - title: Chardonnay
     year: '2014'
     ava: south-coast
-    price: '34'
-    image_path: /images/wine/red/merlot.jpg
-  - title: Cabernet Sauvignon
-    year: '2013'
+    price: '18'
+    image_path: /images/wine/white/chardonnay.jpg
+  - title: Sauvignon Blanc
+    year: '2014'
     ava: south-coast
-    price: '36'
-    image_path: /images/wine/red/cab.jpg
+    price: '28'
+    image_path: /images/wine/white/sauvignon-blanc.jpg
   - title: Viognier
     year: '2016'
     ava: south-coast
     price: '22'
     image_path: /images/wine/white/sauvignon-blanc.jpg
-  - title: Syrah 375 ML
-    year: '2014'
-    ava: south-coast
-    price: '0'
-    image_path: /images/wine/red/syrah.jpg
-  - title: Chardonnay
+  - title: Rose 375 ML
     year: '2016'
     ava: south-coast
     price: '0'
-    image_path: /images/wine/white/chardonnay.jpg
+    image_path: /images/wine/white/rose.jpg
+  - title: Melody Lane 375 ML
+    year: '2016'
+    ava: south-coast
+    price: '0'
+    image_path: /images/wine/white/melody-lane.jpg
 ---
 
 
