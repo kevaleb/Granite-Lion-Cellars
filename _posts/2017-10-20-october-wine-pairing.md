@@ -1,7 +1,7 @@
 ---
 headline: Port Wine Braised Beef Short Ribs
 category: recipes
-image_path: /uploads/october-wine-pairing-fine-wine-close-to-home.png
+image_path: /uploads/nine-ten-port-wine-braised-beef-short-ribs-1.jpg
 ---
 
 
@@ -18,7 +18,7 @@ image_path: /uploads/october-wine-pairing-fine-wine-close-to-home.png
 * 1 bay leaf
 * 1 bottle red wine
 * 2 cups ruby Port
-* 4 cups veal or chicken stock
+* 4 cups veal or chicken stock![](/uploads/versions/october-wine-pairing-fine-wine-close-to-home-1---x----640-560x---.png)
 
 Trim short ribs of excess fat, then season with salt and pepper. In large saut&eacute; pan over medium-high heat, sear short ribs until golden brown on all sides, about 4 minutes. Remove ribs from pan and place in crockpot or ovenproof pot. In same saut&eacute; pan over medium heat, place onion, carrots, celery and garlic. Saut&eacute; until golden brown. Add wine, and reduce by half. Add thyme and bay leaf to wine mixture. Pour over ribs, and marinate at least 2–3 hours, or overnight.<br><br>Preheat oven to 325&deg;F. Warm veal stock or chicken stock and pour over ribs. Cover ovenproof pot with foil or lid. Cook for 3–4 hours, or until fork tender, checking every 45 minutes. Remove from oven and let cool.
 
