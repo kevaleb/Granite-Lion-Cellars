@@ -1,7 +1,7 @@
 ---
 headline: Not Your Grandma's Apple Pie
 category: recipes
-image_path: /uploads/iStock-176962940.jpg
+image_path: /uploads/featured-october-wine-pairing-small.png
 ---
 
 
