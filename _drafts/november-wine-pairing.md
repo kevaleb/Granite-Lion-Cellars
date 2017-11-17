@@ -11,7 +11,7 @@ You may use one of your favorite homemade pie crusts or 1 ready-made pie crust. 
 
 ### NOT YOUR GRANDMA'S APPLE PIE FILLING
 
-5 1⁄2 &nbsp;cups peeled cored sliced cooking apples<br>1 tablespoon lemon juice<br>1⁄2 &nbsp;cup granulated sugar<br>1⁄4 &nbsp;cup brown sugar, packed<br>3 tablespoons flour<br>1⁄2 &nbsp;teaspoon ground cinnamon<br>1⁄4 &nbsp;teaspoon nutmeg*<br>\***OPTIONAL:&nbsp; Add Two Tablespoons of Wild Turkey Bourbon***<br>**Directions:**&nbsp; In a large bowl, mix sliced apples, lemon juice, both sugars,flour, cinnamon and nutmeg. &nbsp;Pile into crust.
+5 1⁄2 &nbsp;cups peeled cored sliced cooking apples<br>1 tablespoon lemon juice<br>1⁄2 &nbsp;cup granulated sugar<br>1⁄4 &nbsp;cup brown sugar, packed<br>3 tablespoons flour<br>1⁄2 &nbsp;teaspoon ground cinnamon<br>1⁄4 &nbsp;teaspoon nutmeg*<br>\***OPTIONAL:&nbsp; Add One, or Two, Tablespoons of Wild Turkey Bourbon***<br>**Directions:**&nbsp; In a large bowl, mix sliced apples, lemon juice, both sugars,flour, cinnamon and nutmeg. &nbsp;Pile into crust.
 
 ### TOPPING
 
