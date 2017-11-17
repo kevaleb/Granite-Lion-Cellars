@@ -7,7 +7,7 @@ image_path: /uploads/apple-pie-wine-pairing.jpg
 
 ***Recipe Featured from the Genius Kitchen, Contributed by Joy and Dancer<br>Serves Six (6)***
 
-## **PIE CRUST**
+# **PIE CRUST**
 
 You may use one of your favorite homemade pie crusts or 1 ready-made pie crust. &nbsp;<br>**Simple Pastry Pie Crust:**<br>1 cups flour<br>1⁄3 cup lard, or 1⁄3 cup butter, or 1⁄3 cup shortening<br>1⁄2 teaspoon salt<br>cold water<br>**Directions:**Combine flour, lard and salt with a pastry blender or fork until balls are the size of a large pea. Add cold water by the spoonful and blend until the bowl starts to clean itself as you work the dough. &nbsp;Then, it is ready for rolling.
 
