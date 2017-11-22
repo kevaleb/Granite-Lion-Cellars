@@ -1,5 +1,5 @@
 ---
-title: 4th Quarterly Wine Shipments Whites
+title: Shipping cost
 category:
 coupon: granitelionwineclub
 products:
