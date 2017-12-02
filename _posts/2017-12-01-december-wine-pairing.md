@@ -5,7 +5,7 @@ image_path: /uploads/scalloped-potatoes.jpg
 ---
 
 
-*\*Recipe Presented by Alma Cawley, AZ<br>Serves 8*
+*Recipe Presented by Alma Cawley, AZ<br>Serves 8*
 
 3 1/2 cups heavy cream<br>2 garlic cloves, minced<br>1¾ teaspoons salt<br>2 teaspoon freshly ground pepper&nbsp;<br>About 6 tablespoons grated peeled fresh horseradish root<br>2 1/2 pounds Idaho potatoes (about 5) peeled and thinly sliced<br>2 large tart apple, such as Granny Smith—peeled, halved, cored and thinly sliced<br>3 cup freshly grated Parmesan cheese
 
