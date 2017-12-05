@@ -1,28 +1,13 @@
 ---
-title: Sam Zitting
-category: wine-club
+title: 4th Quarterly wine shipments + Shipping
+category:
 coupon: granitelionwineclub
 products:
-  - title: Napa Valley Cab Sauvignon 1.5L
-    year: '2011'
-    ava: napa
-    price: '72'
-    image_path: /images/wine/red/napa-cab.jpg
-  - title: Napa Valley Cab Sauvignon 1.5L
-    year: '2011'
-    ava: lodi
-    price: '72'
-    image_path: /images/wine/red/lodi-tannat.jpg
-  - title: Napa Valley Cab Sauvignon 1.5L
-    year: '2011'
+  - title: Shipping
+    year: '2014'
     ava: south-coast
-    price: '72'
-    image_path: /images/wine/red/napa-merlot.jpg
-  - title: Napa Valley 1.5L
-    year: '2011'
-    ava: napa
-    price: '72'
-    image_path: /images/wine/red/napa-cab-blend.jpg
+    price: '0'
+    image_path:
 ---
 
 
