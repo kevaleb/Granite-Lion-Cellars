@@ -6,7 +6,7 @@ products:
   - title: Wine gifts
     year: '2013'
     ava: south-coast
-    price: '60'
+    price: '1380.00'
     image_path:
 ---
 
