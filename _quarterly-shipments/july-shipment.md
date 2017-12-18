@@ -1,12 +1,12 @@
 ---
-title: 4th Quarterly wine shipments + Shipping
+title: PRMI wine Gifts
 category:
 coupon: granitelionwineclub
 products:
-  - title: Shipping
-    year: '2014'
+  - title: Wine gifts
+    year: '2013'
     ava: south-coast
-    price: '0'
+    price: '1380.00'
     image_path:
 ---
 
