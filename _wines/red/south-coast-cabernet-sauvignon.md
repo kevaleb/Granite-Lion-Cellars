@@ -16,7 +16,9 @@ years:
 ---
 
 
-**Granite Lion Cellars is pleased to deliver a full-bodied wine that emphasizes all the best characteristics of a Cabernet Sauvignon.**
+![](/uploads/versions/cabernet-sauvignon-granite-lion-fine-wine-tasting---x0-0-550-200-550-200x---.jpg)
+
+<br>**Granite Lion Cellars is pleased to deliver a full-bodied wine that emphasizes all the best characteristics of a Cabernet Sauvignon.**
 
 Each year has a unique taste of a classic cabernet with deep flavor and firm tannins that deliver a complex character and makes the varietal the king of grapes. Our vines are nestled in the San Diego foothills; cradled against the sun and fed by the evening sea breezes. &nbsp;The grapes are demonstrating the quality fruit produced by our vines can in fact become world class wines. &nbsp;After our grapes are patiently hand-picked from the estate vines, pressed with care, and stored in a French oak barrel for 24 months of aging.
 
