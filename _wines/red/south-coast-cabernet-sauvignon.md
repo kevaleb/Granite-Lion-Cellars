@@ -16,8 +16,5 @@ years:
 ---
 
 
-&nbsp;
-
-| | &nbsp; |
-{: .MsoTableGrid} | &nbsp; |
+| &nbsp; | &nbsp; |
 {: .MsoTableGrid}
