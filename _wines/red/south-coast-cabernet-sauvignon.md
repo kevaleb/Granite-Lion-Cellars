@@ -16,7 +16,7 @@ years:
 ---
 
 
-![](/uploads/versions/cabernet-sauvignon-granite-lion-fine-wine-tasting-1---x----525-200x---.jpg)
+![](/uploads/versions/cabernet-sauvignon-granite-lion-fine-wine-tasting---x----525-200x---.jpg)
 
 **Granite Lion Cellars is pleased to deliver a full-bodied wine that emphasizes all the best characteristics of a Cabernet Sauvignon.**
 
