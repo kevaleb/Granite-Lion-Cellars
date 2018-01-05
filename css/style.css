@@ -2255,6 +2255,7 @@ display: none;
 .subscribe > label {
 	display: inline-block;
 	margin: 0 0 6px 0;
+	padding: 9px 18px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	background: #fff;
@@ -2263,14 +2264,14 @@ display: none;
 	display: inline-block;
 	width: 50px;
 	padding: 0 6px;
-	font: 900 10px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 900 12px/14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-transform: uppercase;
 	color: #666;
 }
 .subscribe > label > input {
 	width: 250px;
 	border: none;
-	font: 400 12px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 400 16px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	letter-spacing: 2px;
 }
 .subscribe > label > input::-webkit-input-placeholder {
