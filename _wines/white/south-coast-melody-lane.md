@@ -3,6 +3,7 @@ layout: wine
 title: south coast melody lane
 permalink: wine/melody-lane/
 winename: melody lane
+foxy-category:
 varietal: white blend
 ava: south-coast
 color: white

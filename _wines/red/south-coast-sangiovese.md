@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Sangiovese
 permalink: wine/sangiovese/
 winename: sangiovese
+foxy-category:
 varietal: sangiovese
 ava: south-coast
 color: red

@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Zinfandel
 permalink: wine/zinfandel/
 winename: zinfandel
+foxy-category:
 varietal: zinfandel
 ava: south-coast
 color: red

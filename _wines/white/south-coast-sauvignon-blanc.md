@@ -3,6 +3,7 @@ layout: wine
 title: south coast sauvignon blanc
 permalink: wine/sauvignon-blanc/
 winename: sauvignon blanc
+foxy-category:
 varietal: sauvignon blanc
 ava: south-coast
 color: white

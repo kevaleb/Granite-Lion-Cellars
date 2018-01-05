@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Stoney Oaks
 permalink: wine/stoney-oaks/
 winename: stoney oaks
+foxy-category:
 varietal: red blend
 ava: south-coast
 color: red

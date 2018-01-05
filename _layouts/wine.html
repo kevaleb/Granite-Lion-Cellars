@@ -69,6 +69,10 @@ css: /css/products.css
 				<input type="hidden" name="image" value="{{ page.image_path }}" />
 				<input type="hidden" name="quantity" value="3" class="quantityinput"/>
 				
+				{% unless page.foxy-category == nil %}
+				<input type="hidden" name="category" value="{{ page.foxy-category }}" />
+				{% endunless %}
+				
 				<input type="submit" value="Add To Cart" class="button"/>
 			</form>
 		</div>

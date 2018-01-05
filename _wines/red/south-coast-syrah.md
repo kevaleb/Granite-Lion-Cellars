@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Syrah
 permalink: wine/syrah/
 winename: syrah
+foxy-category:
 varietal: syarh
 ava: south-coast
 color: red

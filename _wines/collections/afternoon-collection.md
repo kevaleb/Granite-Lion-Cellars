@@ -3,6 +3,7 @@ layout: wine
 title: 'Flirty, Not Sweet Afternoon Collection'
 permalink: wine/afternoon-collection/
 winename: 'flirty, not sweet afternoon collection'
+foxy-category:
 product-type: collection
 image_path: '/images/wine/collections/Flirty, Not Sweet Afternoon Collection.jpg'
 years:

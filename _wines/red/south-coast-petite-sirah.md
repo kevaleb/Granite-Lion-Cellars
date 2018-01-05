@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Petite Sirah
 permalink: wine/petite-sirah/
 winename: petite sirah
+foxy-category:
 varietal: petite sirah
 ava: south-coast
 color: red

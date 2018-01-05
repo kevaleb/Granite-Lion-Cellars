@@ -3,6 +3,7 @@ layout: wine
 title: personal collection
 permalink: wine/personal-collection/
 winename: personal collection
+foxy-category:
 product-type: collection
 image_path: /images/wine/collections/personal-collection.jpg
 years:

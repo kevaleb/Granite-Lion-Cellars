@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Cabernet Sauvignon
 permalink: wine/cabernet-sauvignon/
 winename: cabernet sauvignon
+foxy-category: cabsav
 varietal: cabernet sauvignon
 ava: south-coast
 color: red

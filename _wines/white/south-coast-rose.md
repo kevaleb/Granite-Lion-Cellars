@@ -3,6 +3,7 @@ layout: wine
 title: south coast rose
 permalink: wine/rose/
 winename: rose
+foxy-category:
 varietal: rose
 ava: south-coast
 color: white

@@ -3,6 +3,7 @@ layout: wine
 title: South Coast Merlot
 permalink: wine/merlot/
 winename: merlot
+foxy-category:
 varietal: merlot
 ava: south-coast
 color: red
