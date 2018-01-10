@@ -1,33 +1,33 @@
 ---
-title: 1st Quarterly Wine Club Shipment - Reds
+title: 1st Quarterly Wine Club Shipment - White
 category:
 coupon: granitelionwineclub
 products:
-  - title: Syrah
-    year: '2013'
+  - title: Chardonnay
+    year: '2016'
     ava: south-coast
-    price: '36.00'
-    image_path: /images/wine/red/syrah.jpg
-  - title: Sangiovese
-    year: '2013'
+    price: '18.00'
+    image_path: /images/wine/white/chardonnay.jpg
+  - title: Rose
+    year: '2016'
     ava: south-coast
     price: '24.00'
-    image_path: /images/wine/red/sangiovese.jpg
-  - title: Zinfandel
-    year: '2012'
+    image_path: /images/wine/white/rose.jpg
+  - title: Viognier - Picture Not Available
+    year: '2014'
     ava: south-coast
-    price: '28.00'
-    image_path: /images/wine/red/zin.jpg
-  - title: Petite Syrah 375 ML
-    year: '2013'
-    ava: south-coast
-    price: '0.00'
-    image_path: /images/wine/red/petite-sirah.jpg
-  - title: Cabernet Sauvignon Reserve 375 ML
-    year: '2013'
+    price: '22.00'
+    image_path:
+  - title: Melody Lane
+    year: '2016'
     ava: south-coast
     price: '0.00'
-    image_path: /images/wine/red/cabernet-sauvignon-granite-lion-fine-wine.jpg
+    image_path: /images/wine/white/melody-lane.jpg
+  - title: Rose
+    year: '2016'
+    ava: south-coast
+    price: '0.00'
+    image_path: /images/wine/white/rose.jpg
 ---
 
 
