@@ -1,13 +1,33 @@
 ---
-title: Reds
+title: 1st Quarterly Wine Club Shipment - Reds
 category:
 coupon: granitelionwineclub
 products:
-  - title: Wine gifts
+  - title: Syrah
     year: '2013'
     ava: south-coast
-    price: '1380.00'
-    image_path:
+    price: '36.00'
+    image_path: /images/wine/red/syrah.jpg
+  - title: Sangiovese
+    year: '2013'
+    ava: south-coast
+    price: '24.00'
+    image_path: /images/wine/red/sangiovese.jpg
+  - title: Zinfandel
+    year: '2012'
+    ava: south-coast
+    price: '28.00'
+    image_path: /images/wine/red/zin.jpg
+  - title: Petite Syrah 375 ML
+    year: '2013'
+    ava: south-coast
+    price: '0.00'
+    image_path: /images/wine/red/petite-sirah.jpg
+  - title: Cabernet Sauvignon Reserve 375 ML
+    year: '2013'
+    ava: south-coast
+    price: '0.00'
+    image_path: /images/wine/red/cabernet-sauvignon-granite-lion-fine-wine.jpg
 ---
 
 
