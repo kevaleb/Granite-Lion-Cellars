@@ -1,5 +1,5 @@
 ---
-title: PRMI wine Gifts
+title: Reds
 category:
 coupon: granitelionwineclub
 products:
