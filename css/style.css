@@ -1,4 +1,4 @@
-/* @override http://0.0.0.0:4000/css/style.css */
+/* @override http://127.0.0.1:4000/css/style.css */
 
 /* @group General */
 
@@ -137,6 +137,8 @@ blockquote > p:after {
 	float: right;
 	clear: none;
 	height: 72px;
+	
+	padding: 24px 0;
 }
 .main-navigation:after {
 	content: '\00a0';
@@ -150,10 +152,11 @@ blockquote > p:after {
 	display: inline-block;
 	position: relative;
 	margin: 0 -.25em 0 18px;
-	font: 16px/24px 'Gilda Display', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 0;
+	font:500 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	/*letter-spacing: 2px;*/
 	vertical-align: middle;
 	color: #111;
 	opacity: .85;
@@ -174,15 +177,30 @@ blockquote > p:after {
 
 
 .main-navigation > .cart {
-	position: relative;
-	top: -2px;
+	/*position: relative;
+	top: -2px;*/
 }
-.main-navigation > .cart:after {
+/*.main-navigation > .cart:after {
 	content: '\00a0';
 	display: inline-block;
 	width: 25px;
 	height: 25px;
 	background: url('/images/icons.png') no-repeat -75px 0px;
+}*/
+
+.main-navigation > .cart {
+	margin-left: 9px;
+}
+.main-navigation > .facebook-link {
+	/*background: #f16;*/
+}
+.main-navigation > .facebook-link > img,
+.main-navigation > .cart > img {
+	width: 30px;
+}
+.main-navigation > .facebook-link:hover > img,
+.main-navigation > .cart:hover > img {
+	
 }
 
 /* @end */
@@ -2740,7 +2758,7 @@ display: none;
 	margin: 0;
 	
 }
-.main-navigation > .cart {
+/*.main-navigation > .cart {
 	position: fixed;
 	z-index: 10000000000000;
 	top: 0px;
@@ -2749,7 +2767,7 @@ display: none;
 	background-color: #b6ac67;
 	border-radius: 0 0 3px 3px;
 	opacity: 1;
-}	
+}	*/
 .footer > section > p {
 	float: none;
 }

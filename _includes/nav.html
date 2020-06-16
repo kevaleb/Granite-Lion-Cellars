@@ -1,7 +1,14 @@
 <nav class="main-navigation">
+	<a href="https://www.glcwine.com/">Our Wine</a>
 	{% assign links = site.main-pages | sort:"navorder" %}
 	{% for item in links %}
 	<a href="{{ item.url }}" {% if page.url contains item.navclass %}class="selected"{% endif %}>{{ item.navtitle }}</a>
 	{% endfor %}
-	<a href="https://granitelioncellars.foxycart.com/cart?cart=view" class="cart"></a>
+	
+	<a href="https://www.facebook.com/granitelioncellars/" class="facebook-link" target="_blank">
+		<img src="/images/icons/fb-gold.svg" alt="facebook"/>
+	</a>
+	<a href="https://granitelioncellars.foxycart.com/cart?cart=view" class="cart">
+		<img src="/images/icons/cart-gold.svg" alt="cart"/>
+	</a>
 </nav>
